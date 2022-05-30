@@ -3,8 +3,9 @@
 	<view class="">
 		<DeliveryInfo></DeliveryInfo>
 		<OrderProducts></OrderProducts>
-		
+		<PriceDetail></PriceDetail>
 		<OrderRemark></OrderRemark>
+		<OrderSubmit></OrderSubmit>
 	</view>
 </template>
 
@@ -28,4 +29,7 @@
 </script>
 
 <style>
+	page{
+		background: #f0f0f0;
+	}
 </style>
