@@ -1,0 +1,240 @@
+2022-05-12 22:04:11,779 ERROR 43009 [-/127.0.0.1/-/39ms POST /api/a/authsimple/passport/a-authsimple/authsimple] nodejs.Error: Authentication Failed
+    at ErrorClass.throw (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/base/error.js:26:19)
+    at Object.context.<computed> [as throw] (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/errors.js:29:39)
+    at verify (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-authsimple/dist/webpack:/egg-born-module-a-authsimple/backend/src/config/passport/auth.js:11:1)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+code: 1001
+message: "Authentication Failed"
+pid: 43009
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-12 22:04:21,255 ERROR 43009 [-/127.0.0.1/-/4ms POST /api/test/party/test/ctx/response/throwError?locale=zh-cn] nodejs.Error: 错误测试
+    at ErrorClass.throw (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/base/error.js:26:19)
+    at Object.context.<computed> [as throw] (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/errors.js:29:39)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/module-vendor/test-party/dist/backend.js:1:75183
+    at tryCatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/regenerator-runtime/runtime.js:119:21)
+    at t (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/module-vendor/test-party/dist/backend.js:1:73920)
+    at i (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/module-vendor/test-party/dist/backend.js:1:74123)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/module-vendor/test-party/dist/backend.js:1:74182
+    at new Promise (<anonymous>)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/module-vendor/test-party/dist/backend.js:1:74063
+    at throwError (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/module-vendor/test-party/dist/backend.js:1:75232)
+    at Object.classControllerMiddleware (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/route.js:182:37)
+    at Object.callFn (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at Middleware.execute (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-base-sync/dist/webpack:/egg-born-module-a-base-sync/backend/src/bean/middleware.test.js:6:1)
+    at fn (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/route.js:159:25)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at fn (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/route.js:153:14)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at fn (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/route.js:153:14)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at cors (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@koa/cors/index.js:60:38)
+    at Middleware.execute (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-base-sync/dist/webpack:/egg-born-module-a-base-sync/backend/src/bean/middleware.cors.js:49:1)
+    at fn (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/route.js:159:25)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at fnStart (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/route.js:61:17)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/lib/router.js:186:18
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/lib/router.js:191:33)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-compose/index.js:42:32)
+    at passportSession (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-passport/lib/framework.js:59:12)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-compose/index.js:42:32)
+    at passportInitialize (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-passport/lib/framework.js:36:12)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-compose/index.js:42:32)
+    at nosniff (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/lib/middlewares/nosniff.js:8:11)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-compose/index.js:42:32)
+    at noopen (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/lib/middlewares/noopen.js:8:11)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-compose/index.js:42:32)
+    at notAllow (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/lib/middlewares/methodnoallow.js:21:12)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-compose/index.js:42:32)
+    at clusterAppMock (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@zhennann/egg-mock/app/middleware/cluster_app_mock.js:9:58)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-compose/index.js:42:32)
+    at _handleNext (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/app/middleware/jwt.js:126:11)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/app/middleware/jwt.js:150:17
+    at middleware (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-jwt2/lib/index.js:93:22)
+    at jwt (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/app/middleware/jwt.js:148:13)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-compose/index.js:42:32)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/app/middleware/instance.js:6:11
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/app/middleware/appReady.js:8:5
+    at bodyParser (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-bodyparser/index.js:95:5)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@zhennann/koa-static-cache/index.js:39:63
+    at notfound (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/app/middleware/notfound.js:5:5)
+    at meta (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/app/middleware/meta.js:18:5)
+code: 1001
+message: "错误测试"
+pid: 43009
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-12 22:04:21,486 ERROR 43009 [-/127.0.0.1/-/42ms POST /api/test/party/test/ctx/transaction] nodejs.Error: [ [Object], [Object] ]
+    at Object.createError (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/util.js:54:41)
+    at Object.context.createError (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/errors.js:39:37)
+    at Ajv.v (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-validation/dist/webpack:/egg-born-module-a-validation/backend/src/ajv/ajv.js:71:1)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Validation.validate (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-validation/dist/webpack:/egg-born-module-a-validation/backend/src/bean/bean.validation.js:33:1)
+    at Validation._validate (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-validation/dist/webpack:/egg-born-module-a-validation/backend/src/bean/bean.validation.js:123:1)
+    at n.write (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-base-sync/dist/webpack:/egg-born-module-a-base-sync/backend/src/bean/bean.atomBase_0.js:154:1)
+    at n.write (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-cms/dist/webpack:/egg-born-module-a-cms/backend/src/common/AtomCmsBase.js:68:1)
+code: 422
+message: [{"keyword":"minimum","dataPath":"/personCount","schemaPath":"#/properties/personCount/minimum","params":{"comparison":">=","limit":1,"exclusive":false},"message":"should be >= 1"},{"keyword":"notEmpty","params":[],"message":"Required","dataPath":"/personCount","schemaPath":"#/properties/personCount/notEmpty"}]
+pid: 43009
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-12 22:04:22,512 ERROR 43009 [-/127.0.0.1/-/3ms POST /api/test/party/test/feat/middleware/interception] nodejs.Error: Incomplete Parameters
+    at ErrorClass.throw (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/base/error.js:26:19)
+    at Object.context.<computed> [as throw] (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/errors.js:29:39)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/module-vendor/test-party/dist/backend.js:1:14236
+    at tryCatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/regenerator-runtime/runtime.js:119:21)
+    at t (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/module-vendor/test-party/dist/backend.js:1:13877)
+    at i (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/module-vendor/test-party/dist/backend.js:1:14414)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/module-vendor/test-party/dist/backend.js:1:14473
+    at new Promise (<anonymous>)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/module-vendor/test-party/dist/backend.js:1:14354
+    at Object.execute (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/module-vendor/test-party/dist/backend.js:1:14487)
+    at fn (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/route.js:159:25)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at Middleware.execute (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-base-sync/dist/webpack:/egg-born-module-a-base-sync/backend/src/bean/middleware.test.js:6:1)
+    at fn (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/route.js:159:25)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at Middleware.execute (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-base-sync/dist/webpack:/egg-born-module-a-base-sync/backend/src/bean/middleware.right.js:15:1)
+    at fn (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/route.js:159:25)
+    at dispatch (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at Middleware.execute (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-base-sync/dist/webpack:/egg-born-module-a-base-sync/backend/src/bean/middleware.auth.js:7:1)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at cors (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@koa/cors/index.js:60:32)
+    at Middleware.execute (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-base-sync/dist/webpack:/egg-born-module-a-base-sync/backend/src/bean/middleware.cors.js:49:1)
+    at fnStart (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/route.js:61:11)
+    at xframe (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-session/index.js:41:7)
+    at _handleNext (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/app/middleware/jwt.js:126:5)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/app/middleware/jwt.js:150:11
+    at middleware (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-jwt2/lib/index.js:93:16)
+    at jwt (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/app/middleware/jwt.js:148:7)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/app/middleware/instance.js:6:5
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/app/middleware/appReady.js:8:5
+    at bodyParser (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-bodyparser/index.js:95:5)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@zhennann/koa-static-cache/index.js:39:63
+    at notfound (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/app/middleware/notfound.js:5:5)
+    at meta (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/app/middleware/meta.js:18:5)
+code: 1002
+message: "Incomplete Parameters"
+pid: 43009
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-12 22:04:23,820 ERROR 43009 [-/127.0.0.1/-/2ms POST /api/test/party/test/feat/validation/fail] nodejs.Error: [ [Object], [Object] ]
+    at Object.createError (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/util.js:54:41)
+    at Object.context.createError (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/errors.js:39:37)
+    at Ajv.v (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-validation/dist/webpack:/egg-born-module-a-validation/backend/src/ajv/ajv.js:71:1)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Validation.validate (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-validation/dist/webpack:/egg-born-module-a-validation/backend/src/bean/bean.validation.js:33:1)
+    at Middleware.execute (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-validation/dist/webpack:/egg-born-module-a-validation/backend/src/bean/middleware.validate.js:16:1)
+    at Middleware.execute (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-base-sync/dist/webpack:/egg-born-module-a-base-sync/backend/src/bean/middleware.test.js:6:1)
+    at cors (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@koa/cors/index.js:60:32)
+    at Middleware.execute (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-base-sync/dist/webpack:/egg-born-module-a-base-sync/backend/src/bean/middleware.cors.js:49:1)
+    at fnStart (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/lib/module/route.js:61:11)
+    at xframe (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/lib/middlewares/xframe.js:7:5)
+    at xssProtection (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/lib/middlewares/xssProtection.js:7:5)
+    at nosniff (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/lib/middlewares/nosniff.js:8:5)
+    at noopen (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/lib/middlewares/noopen.js:8:5)
+    at session (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-session/index.js:41:7)
+    at _handleNext (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/app/middleware/jwt.js:126:5)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/app/middleware/jwt.js:150:11
+    at middleware (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-jwt2/lib/index.js:93:16)
+    at jwt (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/app/middleware/jwt.js:148:7)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/app/middleware/instance.js:6:5
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/app/middleware/appReady.js:8:5
+    at bodyParser (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/koa-bodyparser/index.js:95:5)
+    at /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@zhennann/koa-static-cache/index.js:39:63
+    at notfound (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/app/middleware/notfound.js:5:5)
+    at meta (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/app/middleware/meta.js:18:5)
+code: 422
+message: [{"keyword":"notEmpty","params":[],"message":"Required","dataPath":"/groupInfo/username","schemaPath":"#/properties/groupInfo/properties/username/notEmpty"},{"keyword":"notEmpty","params":[],"message":"Required","dataPath":"/groupExtra/panelExtra/groupInfo/mobile","schemaPath":"settingsUserExtra/properties/groupInfo/properties/mobile/notEmpty"}]
+pid: 43009
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-12 22:22:21,734 ERROR 43153 nodejs.ClusterClientNoResponseError: client no response in 300650ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 43153
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-12 22:22:21,735 ERROR 43153 nodejs.ClusterClientNoResponseError: client no response in 300671ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 43153
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-12 23:26:42,419 ERROR 43153 nodejs.ClusterClientNoResponseError: client no response in 3839838ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 43153
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-12 23:26:42,423 ERROR 43153 nodejs.ClusterClientNoResponseError: client no response in 3839835ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 43153
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-13 08:55:49,795 ERROR 43153 nodejs.ClusterClientNoResponseError: client no response in 34146539ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 43153
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-13 08:55:49,796 ERROR 43153 nodejs.ClusterClientNoResponseError: client no response in 34146538ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 43153
+hostname: zhangyudeMacBook-Pro.local
+

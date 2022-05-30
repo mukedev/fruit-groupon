@@ -1,0 +1,12 @@
+{
+  "version": "independent",
+  "packages": ["src/module/*", "src/module-vendor/*"],
+  "command": {
+    "bootstrap": {
+      "hoist": "**"
+    },
+    "publish": {
+      "ignoreChanges": ["src/module-vendor/**"]
+    }
+  }
+}

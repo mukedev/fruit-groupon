@@ -1,0 +1,210 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/orderconfirm/order_confirm",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/shoppingcart/shopping_cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		}
+		,
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "水果优团"
+			}
+		},
+		{
+			"path": "pages/pointchange/point_change",
+			"style": {
+				"navigationBarTitleText": "水果优团"
+			}
+		},
+		{
+			"path": "pages/points/points",
+			"style": {
+				"navigationBarTitleText": "我的积分"
+			}
+		},
+		{
+			"path": "pages/homedelivery/home_delivery",
+			"style": {
+				"navigationBarTitleText": "配送到家"
+			}
+		},
+		{
+			"path": "pages/coupon/coupon",
+			"style": {
+				"navigationBarTitleText": "我的优惠券"
+			}
+		},
+		
+		
+		{
+			"path": "pages/groupon/groupon",
+			"style": {
+				"navigationBarTitleText": "预订拼单"
+			}
+		},
+		{
+			"path": "pages/rushbuy/rushbuy",
+			"style": {
+				"navigationBarTitleText": "限时抢购"
+			}
+		},
+		
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+		
+		
+		// {
+		// 	"path": "pages/address/address",
+		// 	"style": {
+		// 		"navigationBarTitleText": "收货地址"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/coupon/coupon",
+		// 	"style": {
+		// 		"navigationBarTitleText": "我的优惠券"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/distribution/distribution",
+		// 	"style": {
+		// 		"navigationBarTitleText": "待配送"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/error/404",
+		// 	"style": {
+		// 		"navigationBarTitleText": "404"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/homedelivery/home_delivery",
+		// 	"style": {
+		// 		"navigationBarTitleText": "配送到家"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/login/login",
+		// 	"style": {
+		// 		"navigationBarTitleText": "登录"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/points/points",
+		// 	"style": {
+		// 		"navigationBarTitleText": "我的积分"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/recharge/recharge",
+		// 	"style": {
+		// 		"navigationBarTitleText": "充值"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/services/services",
+		// 	"style": {
+		// 		"navigationBarTitleText": "我的客服"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/shoppingcart/shopping_cart",
+		// 	"style": {
+		// 		"navigationBarTitleText": "购物车"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/suggest/suggest",
+		// 	"style": {
+		// 		"navigationBarTitleText": "意见箱"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/my/my",
+		// 	"style": {
+		// 		"navigationBarTitleText": "我的"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/system/system_setup",
+		// 	"style": {
+		// 		"navigationBarTitleText": "系统设置"
+		// 	}
+		// }
+	],
+	"globalStyle": {
+		"pageOrientation": "portrait",
+		"navigationBarTitleText": "Hello uniapp", // 标题名字
+		"navigationBarTextStyle": "white",// 文字颜色
+		"navigationBarBackgroundColor": "#5ac028", // 导航栏背景颜色
+		"backgroundColor": "#f0f0f0", // 背景颜色
+		// background-color: aqua;
+		"backgroundColorTop": "#F4F5F6",
+		"backgroundColorBottom": "#F4F5F6",
+		"mp-360": {
+			"navigationStyle": "custom"
+		},
+		"h5": {
+			"maxWidth": 1190,
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#F1F1F1"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"iconWidth":"15px",
+		"fontSize": "10px",
+		"spacing": "2px",
+		"list": [
+			
+			
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home.png",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/groupon/groupon",
+				"iconPath": "static/basket.png",
+				"selectedIconPath": "static/basket.png",
+				"text": "预订"
+			},
+			{
+				"pagePath": "pages/rushbuy/rushbuy",
+				"iconPath": "static/time.png",
+				"selectedIconPath": "static/time.png",
+				"text": "秒杀"
+			},
+			{
+				"pagePath": "pages/shoppingcart/shopping_cart",
+				"iconPath": "static/time.png",
+				"selectedIconPath": "static/time.png",
+				"text": "购物车"
+			}
+			,
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/me.png",
+				"selectedIconPath": "static/me.png",
+				"text": "我的"
+			}
+		]
+	}
+}

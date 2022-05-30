@@ -1,0 +1,9 @@
+2022-05-15 20:49:22,832 INFO 76233 [egg-schedule]: register schedule /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-05-15 20:49:22,832 INFO 76233 [egg-schedule]: register schedule /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-05-15 20:49:22,832 INFO 76233 [egg-schedule]: register schedule /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-05-15 20:49:22,832 INFO 76234 [egg-schedule]: register schedule /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-05-15 20:49:22,832 INFO 76234 [egg-schedule]: register schedule /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-05-15 20:49:22,832 INFO 76234 [egg-schedule]: register schedule /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-05-15 20:49:24,124 INFO 76229 [Timer] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 27635879ms at 2022-05-16 04:30:00.003
+2022-05-15 20:49:24,125 INFO 76229 [Timer] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 11435875ms at 2022-05-16 00:00:00.000
+2022-05-15 20:49:24,125 INFO 76229 [Timer] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 11436875ms at 2022-05-16 00:00:01.000

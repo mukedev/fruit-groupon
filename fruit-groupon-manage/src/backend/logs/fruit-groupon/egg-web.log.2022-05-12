@@ -1,0 +1,153 @@
+2022-05-12 22:03:33,897 INFO 43009 [egg:logger] init all loggers with options: {"dir":"/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/logs/fruit-groupon","encoding":"utf8","env":"unittest","level":"INFO","consoleLevel":"WARN","disableConsoleAfterReady":false,"outputJSON":false,"buffer":false,"appLogName":"fruit-groupon-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-12 22:03:33,905 INFO 43009 [egg-multipart] stream mode enable
+2022-05-12 22:03:33,905 INFO 43009 [egg-mysql] connecting root@127.0.0.1:3306/mysql
+2022-05-12 22:03:33,974 INFO 43009 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:03:33,976 INFO 43009 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:03:33,976 INFO 43009 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:03:33,976 INFO 43009 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:03:33,976 INFO 43009 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:03:33,977 INFO 43009 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:03:33,977 INFO 43009 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:03:34,081 INFO 43009 [egg-static] starting static serve /api/static/ -> /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/app/public
+2022-05-12 22:03:34,083 INFO 43009 [egg-security] use methodnoallow middleware
+2022-05-12 22:03:34,083 INFO 43009 [egg-security] use noopen middleware
+2022-05-12 22:03:34,083 INFO 43009 [egg-security] use nosniff middleware
+2022-05-12 22:03:34,083 INFO 43009 [egg-security] use xssProtection middleware
+2022-05-12 22:03:34,083 INFO 43009 [egg-security] use xframe middleware
+2022-05-12 22:03:34,084 INFO 43009 [egg-security] use dta middleware
+2022-05-12 22:03:34,084 INFO 43009 [egg-security] compose 6 middlewares into one security middleware
+2022-05-12 22:03:34,217 INFO 43009 [egg:core] dump config after load, 4ms
+2022-05-12 22:03:34,245 INFO 43009 [egg-redis] client connect success
+2022-05-12 22:03:34,245 INFO 43009 [egg-redis] instance[0] status OK, client ready
+2022-05-12 22:03:34,245 INFO 43009 [egg-redis] client connect success
+2022-05-12 22:03:34,245 INFO 43009 [egg-redis] instance[1] status OK, client ready
+2022-05-12 22:03:34,245 INFO 43009 [egg-redis] client connect success
+2022-05-12 22:03:34,246 INFO 43009 [egg-redis] instance[2] status OK, client ready
+2022-05-12 22:03:34,246 INFO 43009 [egg-redis] client connect success
+2022-05-12 22:03:34,246 INFO 43009 [egg-redis] instance[3] status OK, client ready
+2022-05-12 22:03:34,246 INFO 43009 [egg-redis] client connect success
+2022-05-12 22:03:34,246 INFO 43009 [egg-redis] instance[4] status OK, client ready
+2022-05-12 22:03:34,246 INFO 43009 [egg-redis] client connect success
+2022-05-12 22:03:34,246 INFO 43009 [egg-redis] instance[5] status OK, client ready
+2022-05-12 22:03:34,246 INFO 43009 [egg-redis] client connect success
+2022-05-12 22:03:34,246 INFO 43009 [egg-redis] instance[6] status OK, client ready
+2022-05-12 22:03:34,259 INFO 43009 [egg-watcher:application] watcher start success
+2022-05-12 22:03:34,265 INFO 43009 [egg-mysql] instance[0] status OK, rds currentTime: Thu May 12 2022 22:03:34 GMT+0800 (中国标准时间)
+2022-05-12 22:03:34,272 INFO 43009 [egg:core] dump config after ready, 6ms
+2022-05-12 22:03:34,300 INFO 43009 [egg-mysql] connecting root@127.0.0.1:3306/egg-born-test-fruit-groupon-20220512-220334
+2022-05-12 22:03:34,306 INFO 43009 [egg-mysql] instance[1] status OK, rds currentTime: Thu May 12 2022 22:03:34 GMT+0800 (中国标准时间)
+2022-05-12 22:03:48,152 INFO 43009 [egg-mysql] connecting root@127.0.0.1:3306/egg-born-test-fruit-groupon-20220512-220334
+2022-05-12 22:03:48,157 INFO 43009 [egg-mysql] instance[2] status OK, rds currentTime: Thu May 12 2022 22:03:48 GMT+0800 (中国标准时间)
+2022-05-12 22:03:48,197 INFO 43009 [egg-mysql] connecting root@127.0.0.1:3306/egg-born-test-fruit-groupon-20220512-220334
+2022-05-12 22:03:48,199 INFO 43009 [egg-mysql] instance[3] status OK, rds currentTime: Thu May 12 2022 22:03:48 GMT+0800 (中国标准时间)
+2022-05-12 22:03:49,571 INFO 43009 [egg-mysql] connecting root@127.0.0.1:3306/egg-born-test-fruit-groupon-20220512-220334
+2022-05-12 22:03:49,577 INFO 43009 [egg-mysql] instance[4] status OK, rds currentTime: Thu May 12 2022 22:03:49 GMT+0800 (中国标准时间)
+2022-05-12 22:03:49,621 INFO 43009 [egg-mysql] connecting root@127.0.0.1:3306/egg-born-test-fruit-groupon-20220512-220334
+2022-05-12 22:03:49,625 INFO 43009 [egg-mysql] instance[5] status OK, rds currentTime: Thu May 12 2022 22:03:49 GMT+0800 (中国标准时间)
+2022-05-12 22:06:19,796 INFO 43154 [egg:logger] init all loggers with options: {"dir":"/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/logs/fruit-groupon","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"fruit-groupon-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-12 22:06:19,817 INFO 43154 [egg-multipart] stream mode enable
+2022-05-12 22:06:19,817 INFO 43154 [egg-mysql] connecting root@127.0.0.1:3306/mysql
+2022-05-12 22:06:19,884 INFO 43154 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:06:19,886 INFO 43154 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:06:19,886 INFO 43154 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:06:19,887 INFO 43154 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:06:19,887 INFO 43154 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:06:19,887 INFO 43154 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:06:19,888 INFO 43154 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:06:19,999 INFO 43154 [egg-static] starting static serve /api/static/ -> /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/app/public
+2022-05-12 22:06:20,000 INFO 43154 [egg-security] use methodnoallow middleware
+2022-05-12 22:06:20,000 INFO 43154 [egg-security] use noopen middleware
+2022-05-12 22:06:20,000 INFO 43154 [egg-security] use nosniff middleware
+2022-05-12 22:06:20,000 INFO 43154 [egg-security] use xssProtection middleware
+2022-05-12 22:06:20,000 INFO 43154 [egg-security] use xframe middleware
+2022-05-12 22:06:20,001 INFO 43154 [egg-security] use dta middleware
+2022-05-12 22:06:20,001 INFO 43154 [egg-security] compose 6 middlewares into one security middleware
+2022-05-12 22:06:20,981 INFO 43154 [egg:core] dump config after load, 5ms
+2022-05-12 22:06:19,796 INFO 43155 [egg:logger] init all loggers with options: {"dir":"/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/logs/fruit-groupon","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"fruit-groupon-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-05-12 22:06:19,817 INFO 43155 [egg-multipart] stream mode enable
+2022-05-12 22:06:19,817 INFO 43155 [egg-mysql] connecting root@127.0.0.1:3306/mysql
+2022-05-12 22:06:19,884 INFO 43155 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:06:19,886 INFO 43155 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:06:19,886 INFO 43155 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:06:19,887 INFO 43155 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:06:19,887 INFO 43155 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:06:19,887 INFO 43155 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:06:19,888 INFO 43155 [egg-redis] server connecting redis://:***@127.0.0.1:6379/0
+2022-05-12 22:06:19,999 INFO 43155 [egg-static] starting static serve /api/static/ -> /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/app/public
+2022-05-12 22:06:20,000 INFO 43155 [egg-security] use methodnoallow middleware
+2022-05-12 22:06:20,000 INFO 43155 [egg-security] use noopen middleware
+2022-05-12 22:06:20,000 INFO 43155 [egg-security] use nosniff middleware
+2022-05-12 22:06:20,000 INFO 43155 [egg-security] use xssProtection middleware
+2022-05-12 22:06:20,000 INFO 43155 [egg-security] use xframe middleware
+2022-05-12 22:06:20,001 INFO 43155 [egg-security] use dta middleware
+2022-05-12 22:06:20,001 INFO 43155 [egg-security] compose 6 middlewares into one security middleware
+2022-05-12 22:06:20,983 INFO 43155 [egg:core] dump config after load, 6ms
+2022-05-12 22:06:20,993 INFO 43154 [egg-redis] client connect success
+2022-05-12 22:06:20,993 INFO 43154 [egg-redis] instance[0] status OK, client ready
+2022-05-12 22:06:20,993 INFO 43154 [egg-redis] client connect success
+2022-05-12 22:06:20,993 INFO 43154 [egg-redis] instance[1] status OK, client ready
+2022-05-12 22:06:20,993 INFO 43154 [egg-redis] client connect success
+2022-05-12 22:06:20,993 INFO 43154 [egg-redis] instance[2] status OK, client ready
+2022-05-12 22:06:20,993 INFO 43154 [egg-redis] client connect success
+2022-05-12 22:06:20,994 INFO 43154 [egg-redis] instance[3] status OK, client ready
+2022-05-12 22:06:20,994 INFO 43154 [egg-redis] client connect success
+2022-05-12 22:06:20,994 INFO 43154 [egg-redis] instance[4] status OK, client ready
+2022-05-12 22:06:20,994 INFO 43154 [egg-redis] client connect success
+2022-05-12 22:06:20,994 INFO 43154 [egg-redis] instance[5] status OK, client ready
+2022-05-12 22:06:20,994 INFO 43154 [egg-redis] client connect success
+2022-05-12 22:06:20,994 INFO 43154 [egg-redis] instance[6] status OK, client ready
+2022-05-12 22:06:21,003 INFO 43154 [egg-watcher:application] watcher start success
+2022-05-12 22:06:21,005 INFO 43154 [egg-mysql] instance[0] status OK, rds currentTime: Thu May 12 2022 22:06:21 GMT+0800 (中国标准时间)
+2022-05-12 22:06:21,028 INFO 43154 [egg:core] dump config after ready, 6ms
+2022-05-12 22:06:21,402 INFO 43154 [egg-mysql] connecting root@127.0.0.1:3306/egg-born-test-fruit-groupon-20220512-220334
+2022-05-12 22:06:21,415 INFO 43154 [egg-mysql] instance[1] status OK, rds currentTime: Thu May 12 2022 22:06:21 GMT+0800 (中国标准时间)
+2022-05-12 22:06:20,994 INFO 43155 [egg-redis] client connect success
+2022-05-12 22:06:20,994 INFO 43155 [egg-redis] instance[0] status OK, client ready
+2022-05-12 22:06:20,994 INFO 43155 [egg-redis] client connect success
+2022-05-12 22:06:20,994 INFO 43155 [egg-redis] instance[1] status OK, client ready
+2022-05-12 22:06:20,994 INFO 43155 [egg-redis] client connect success
+2022-05-12 22:06:20,995 INFO 43155 [egg-redis] instance[2] status OK, client ready
+2022-05-12 22:06:20,995 INFO 43155 [egg-redis] client connect success
+2022-05-12 22:06:20,995 INFO 43155 [egg-redis] instance[3] status OK, client ready
+2022-05-12 22:06:20,995 INFO 43155 [egg-redis] client connect success
+2022-05-12 22:06:20,995 INFO 43155 [egg-redis] instance[4] status OK, client ready
+2022-05-12 22:06:20,995 INFO 43155 [egg-redis] client connect success
+2022-05-12 22:06:20,995 INFO 43155 [egg-redis] instance[5] status OK, client ready
+2022-05-12 22:06:20,995 INFO 43155 [egg-redis] client connect success
+2022-05-12 22:06:20,995 INFO 43155 [egg-redis] instance[6] status OK, client ready
+2022-05-12 22:06:21,003 INFO 43155 [egg-watcher:application] watcher start success
+2022-05-12 22:06:21,006 INFO 43155 [egg-mysql] instance[0] status OK, rds currentTime: Thu May 12 2022 22:06:21 GMT+0800 (中国标准时间)
+2022-05-12 22:06:21,028 INFO 43155 [egg:core] dump config after ready, 6ms
+2022-05-12 22:06:21,046 INFO 43155 [egg-mysql] connecting root@127.0.0.1:3306/egg-born-test-fruit-groupon-20220512-220334
+2022-05-12 22:06:21,052 INFO 43155 [egg-mysql] instance[1] status OK, rds currentTime: Thu May 12 2022 22:06:21 GMT+0800 (中国标准时间)
+2022-05-12 22:06:21,303 INFO 43155 [egg-mysql] connecting root@127.0.0.1:3306/egg-born-test-fruit-groupon-20220512-220334
+2022-05-12 22:06:21,318 INFO 43155 [egg-mysql] instance[2] status OK, rds currentTime: Thu May 12 2022 22:06:21 GMT+0800 (中国标准时间)
+2022-05-12 22:06:30,301 INFO 43155 [egg-mysql] connecting root@127.0.0.1:3306/egg-born-test-fruit-groupon-20220512-220334
+2022-05-12 22:06:30,306 INFO 43155 [egg-mysql] instance[3] status OK, rds currentTime: Thu May 12 2022 22:06:30 GMT+0800 (中国标准时间)
+2022-05-12 22:06:31,953 INFO 43154 [egg-mysql] connecting root@127.0.0.1:3306/egg-born-test-fruit-groupon-20220512-220334
+2022-05-12 22:06:31,958 INFO 43154 [egg-mysql] instance[2] status OK, rds currentTime: Thu May 12 2022 22:06:31 GMT+0800 (中国标准时间)
+2022-05-12 22:06:38,683 INFO 43155 [egg-mysql] connecting root@127.0.0.1:3306/egg-born-test-fruit-groupon-20220512-220334
+2022-05-12 22:06:38,688 INFO 43155 [egg-mysql] instance[4] status OK, rds currentTime: Thu May 12 2022 22:06:38 GMT+0800 (中国标准时间)
+2022-05-12 22:06:43,386 INFO 43155 [egg-mysql] connecting root@127.0.0.1:3306/egg-born-test-fruit-groupon-20220512-220334
+2022-05-12 22:06:43,392 INFO 43155 [egg-mysql] instance[5] status OK, rds currentTime: Thu May 12 2022 22:06:43 GMT+0800 (中国标准时间)
+2022-05-12 22:06:44,113 INFO 43154 [egg-mysql] connecting root@127.0.0.1:3306/egg-born-test-fruit-groupon-20220512-220334
+2022-05-12 22:06:44,118 INFO 43154 [egg-mysql] instance[3] status OK, rds currentTime: Thu May 12 2022 22:06:44 GMT+0800 (中国标准时间)
+2022-05-12 22:10:07,824 INFO 43154 [egg-mysql] connecting root@127.0.0.1:3306/egg-born-test-fruit-groupon-20220512-220334
+2022-05-12 22:10:07,829 INFO 43154 [egg-mysql] instance[4] status OK, rds currentTime: Thu May 12 2022 22:10:07 GMT+0800 (中国标准时间)
+2022-05-12 22:22:21,732 WARN 43155 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-12 22:22:21,736 WARN 43155 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-12 22:22:21,730 WARN 43154 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-12 22:22:21,734 WARN 43154 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-12 23:26:42,418 WARN 43155 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-12 23:26:42,419 WARN 43155 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-12 23:26:42,418 WARN 43154 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-12 23:26:42,418 WARN 43154 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-13 08:55:48,969 WARN 43154 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-13 08:55:48,969 WARN 43154 [ClusterClient:Watcher] follower closed, and try to init it again
+2022-05-13 08:55:49,793 INFO 43154 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/fj/1x9jpm296jl0flrq3l76dxsc0000gn/T/egg-multipart-tmp/fruit-groupon"
+2022-05-13 08:55:49,802 INFO 43154 [egg-logrotator] clean all log before 31 days
+2022-05-13 08:55:49,808 INFO 43154 [-/127.0.0.1/-/17ms SCHEDULE /__schedule?path=/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2022-05-13 08:55:49,808 INFO 43154 [egg-logrotator] broadcast log-reload
+2022-05-13 08:55:49,808 INFO 43154 [egg-logrotator] rotate files success by DayRotator, files ["/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/logs/fruit-groupon/common-error.log -> /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/logs/fruit-groupon/common-error.log.2022-05-12","/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/logs/fruit-groupon/fruit-groupon-web.log -> /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/logs/fruit-groupon/fruit-groupon-web.log.2022-05-12","/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/logs/fruit-groupon/egg-web.log -> /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/logs/fruit-groupon/egg-web.log.2022-05-12","/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/logs/fruit-groupon/egg-schedule.log -> /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/logs/fruit-groupon/egg-schedule.log.2022-05-12","/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/logs/fruit-groupon/egg-agent.log -> /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/logs/fruit-groupon/egg-agent.log.2022-05-12"]
+2022-05-13 08:55:48,969 WARN 43155 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2022-05-13 08:55:48,969 WARN 43155 [ClusterClient:Watcher] follower closed, and try to init it again

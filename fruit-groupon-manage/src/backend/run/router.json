@@ -1,0 +1,5649 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/instance/instance/item",
+    "regexp": "/^\\/api\\/a\\/instance\\/instance\\/item(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/instance/instance/save",
+    "regexp": "/^\\/api\\/a\\/instance\\/instance\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "validate",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/instance/instance/getConfigsPreview",
+    "regexp": "/^\\/api\\/a\\/instance\\/instance\\/getConfigsPreview(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/instance/instance/reload",
+    "regexp": "/^\\/api\\/a\\/instance\\/instance\\/reload(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/base/modules",
+    "regexp": "/^\\/api\\/a\\/base\\/base\\/modules(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/base/locales",
+    "regexp": "/^\\/api\\/a\\/base\\/base\\/locales(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/base/resourceTypes",
+    "regexp": "/^\\/api\\/a\\/base\\/base\\/resourceTypes(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/base/atomClasses",
+    "regexp": "/^\\/api\\/a\\/base\\/base\\/atomClasses(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/base/actions",
+    "regexp": "/^\\/api\\/a\\/base\\/base\\/actions(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/base/qrcode",
+    "regexp": "/^\\/api\\/a\\/base\\/base\\/qrcode(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/base/themes",
+    "regexp": "/^\\/api\\/a\\/base\\/base\\/themes(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/preferredRoles",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/preferredRoles(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/preferredRole",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/preferredRole(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/preferredRoleId",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/preferredRoleId(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/create",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/read",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/read(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/select",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/select(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/count",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/count(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/write",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/write(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/openDraft",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/openDraft(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/submit",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/submit(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/writeSubmit",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/writeSubmit(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/delete",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/clone",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/clone(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/enable",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/enable(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/disable",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/disable(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/deleteBulk",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/deleteBulk(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/exportBulk",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/exportBulk(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/star",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/star(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/readCount",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/readCount(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/stats",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/stats(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/labels",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/labels(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/actions",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/actions(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/actionsBulk",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/actionsBulk(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/schema",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/schema(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/validator",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/validator(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atom/checkRightAction",
+    "regexp": "/^\\/api\\/a\\/base\\/atom\\/checkRightAction(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/comment/all",
+    "regexp": "/^\\/api\\/a\\/base\\/comment\\/all(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/comment/list",
+    "regexp": "/^\\/api\\/a\\/base\\/comment\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/comment/count",
+    "regexp": "/^\\/api\\/a\\/base\\/comment\\/count(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/comment/item",
+    "regexp": "/^\\/api\\/a\\/base\\/comment\\/item(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/comment/save",
+    "regexp": "/^\\/api\\/a\\/base\\/comment\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/comment/delete",
+    "regexp": "/^\\/api\\/a\\/base\\/comment\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/comment/heart",
+    "regexp": "/^\\/api\\/a\\/base\\/comment\\/heart(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/user/getLabels",
+    "regexp": "/^\\/api\\/a\\/base\\/user\\/getLabels(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/user/setLabels",
+    "regexp": "/^\\/api\\/a\\/base\\/user\\/setLabels(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/resource/select",
+    "regexp": "/^\\/api\\/a\\/base\\/resource\\/select(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/resource/read",
+    "regexp": "/^\\/api\\/a\\/base\\/resource\\/read(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/resource/check",
+    "regexp": "/^\\/api\\/a\\/base\\/resource\\/check(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/resource/resourceRoles",
+    "regexp": "/^\\/api\\/a\\/base\\/resource\\/resourceRoles(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/resource/resourceRoleRemove",
+    "regexp": "/^\\/api\\/a\\/base\\/resource\\/resourceRoleRemove(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/resource/resourceRoleAdd",
+    "regexp": "/^\\/api\\/a\\/base\\/resource\\/resourceRoleAdd(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atomClass/validatorSearch",
+    "regexp": "/^\\/api\\/a\\/base\\/atomClass\\/validatorSearch(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atomClass/checkRightCreate",
+    "regexp": "/^\\/api\\/a\\/base\\/atomClass\\/checkRightCreate(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/atomClass/atomClass",
+    "regexp": "/^\\/api\\/a\\/base\\/atomClass\\/atomClass(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/auth/echo",
+    "regexp": "/^\\/api\\/a\\/base\\/auth\\/echo(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/auth/check",
+    "regexp": "/^\\/api\\/a\\/base\\/auth\\/check(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/auth/logout",
+    "regexp": "/^\\/api\\/a\\/base\\/auth\\/logout(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "OPTIONS"
+    ],
+    "paramNames": [],
+    "path": {
+      "keys": []
+    },
+    "regexp": "/.*/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/jwt/create",
+    "regexp": "/^\\/api\\/a\\/base\\/jwt\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/util/performAction",
+    "regexp": "/^\\/api\\/a\\/base\\/util\\/performAction(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "jsonp",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/util/performActions",
+    "regexp": "/^\\/api\\/a\\/base\\/util\\/performActions(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/layoutConfig/load",
+    "regexp": "/^\\/api\\/a\\/base\\/layoutConfig\\/load(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/layoutConfig/save",
+    "regexp": "/^\\/api\\/a\\/base\\/layoutConfig\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/layoutConfig/saveKey",
+    "regexp": "/^\\/api\\/a\\/base\\/layoutConfig\\/saveKey(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/category/child",
+    "regexp": "/^\\/api\\/a\\/base\\/category\\/child(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/category/children",
+    "regexp": "/^\\/api\\/a\\/base\\/category\\/children(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/category/add",
+    "regexp": "/^\\/api\\/a\\/base\\/category\\/add(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/category/delete",
+    "regexp": "/^\\/api\\/a\\/base\\/category\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/category/move",
+    "regexp": "/^\\/api\\/a\\/base\\/category\\/move(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/category/item",
+    "regexp": "/^\\/api\\/a\\/base\\/category\\/item(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/category/save",
+    "regexp": "/^\\/api\\/a\\/base\\/category\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "validate",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/category/tree",
+    "regexp": "/^\\/api\\/a\\/base\\/category\\/tree(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/category/relativeTop",
+    "regexp": "/^\\/api\\/a\\/base\\/category\\/relativeTop(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/tag/list",
+    "regexp": "/^\\/api\\/a\\/base\\/tag\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/tag/add",
+    "regexp": "/^\\/api\\/a\\/base\\/tag\\/add(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/tag/save",
+    "regexp": "/^\\/api\\/a\\/base\\/tag\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/tag/delete",
+    "regexp": "/^\\/api\\/a\\/base\\/tag\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/db/insert",
+    "regexp": "/^\\/api\\/a\\/base\\/db\\/insert(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/db/select",
+    "regexp": "/^\\/api\\/a\\/base\\/db\\/select(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/db/get",
+    "regexp": "/^\\/api\\/a\\/base\\/db\\/get(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/db/count",
+    "regexp": "/^\\/api\\/a\\/base\\/db\\/count(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/db/update",
+    "regexp": "/^\\/api\\/a\\/base\\/db\\/update(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/db/delete",
+    "regexp": "/^\\/api\\/a\\/base\\/db\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/db/query",
+    "regexp": "/^\\/api\\/a\\/base\\/db\\/query(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/base/db/iid",
+    "regexp": "/^\\/api\\/a\\/base\\/db\\/iid(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/detail/base/actions",
+    "regexp": "/^\\/api\\/a\\/detail\\/base\\/actions(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/detail/detail/create",
+    "regexp": "/^\\/api\\/a\\/detail\\/detail\\/create(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/detail/detail/read",
+    "regexp": "/^\\/api\\/a\\/detail\\/detail\\/read(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/detail/detail/select",
+    "regexp": "/^\\/api\\/a\\/detail\\/detail\\/select(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/detail/detail/count",
+    "regexp": "/^\\/api\\/a\\/detail\\/detail\\/count(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/detail/detail/write",
+    "regexp": "/^\\/api\\/a\\/detail\\/detail\\/write(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/detail/detail/delete",
+    "regexp": "/^\\/api\\/a\\/detail\\/detail\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/detail/detail/clone",
+    "regexp": "/^\\/api\\/a\\/detail\\/detail\\/clone(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/detail/detail/moveUp",
+    "regexp": "/^\\/api\\/a\\/detail\\/detail\\/moveUp(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/detail/detail/moveDown",
+    "regexp": "/^\\/api\\/a\\/detail\\/detail\\/moveDown(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/detail/detail/actions",
+    "regexp": "/^\\/api\\/a\\/detail\\/detail\\/actions(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/detail/detail/actionsBulk",
+    "regexp": "/^\\/api\\/a\\/detail\\/detail\\/actionsBulk(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/detail/detail/validator",
+    "regexp": "/^\\/api\\/a\\/detail\\/detail\\/validator(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flow/flow/select",
+    "regexp": "/^\\/api\\/a\\/flow\\/flow\\/select(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flow/flow/count",
+    "regexp": "/^\\/api\\/a\\/flow\\/flow\\/count(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flow/flowDef/behaviorBases",
+    "regexp": "/^\\/api\\/a\\/flow\\/flowDef\\/behaviorBases(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flow/flowDef/nodeBases",
+    "regexp": "/^\\/api\\/a\\/flow\\/flowDef\\/nodeBases(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flow/flowDef/edgeBases",
+    "regexp": "/^\\/api\\/a\\/flow\\/flowDef\\/edgeBases(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flow/flowDef/flowServiceBases",
+    "regexp": "/^\\/api\\/a\\/flow\\/flowDef\\/flowServiceBases(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/flow/flow/start",
+    "regexp": "/^\\/api\\/test\\/flow\\/flow\\/start(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/note/demo/createNote",
+    "regexp": "/^\\/api\\/test\\/note\\/demo\\/createNote(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/party/over",
+    "regexp": "/^\\/api\\/test\\/party\\/party\\/over(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/party/overBulk",
+    "regexp": "/^\\/api\\/test\\/party\\/party\\/overBulk(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/atom/starLabel",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/atom\\/starLabel(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/atom/all",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/atom\\/all(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/atom/checkRightCreate",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/atom\\/checkRightCreate(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/atom/checkRightRead",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/atom\\/checkRightRead(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/atom/checkRightWrite",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/atom\\/checkRightWrite(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/atom/checkRightAction",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/atom\\/checkRightAction(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/resource/checkRightResourceUser",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/resource\\/checkRightResourceUser(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/resource/all",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/resource\\/all(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/role/userRole",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/role\\/userRole(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/ctx/performAction",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/ctx\\/performAction(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/ctx/performAction/echo",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/ctx\\/performAction\\/echo(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/ctx/transaction",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/ctx\\/transaction(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/ctx/tail",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/ctx\\/tail(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/ctx/session",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/ctx\\/session(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/ctx/session/echo1",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/ctx\\/session\\/echo1(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/ctx/session/echo2",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/ctx\\/session\\/echo2(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/test/party/test/ctx/request/:id",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/ctx\\/request\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/ctx/requestXML",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/ctx\\/requestXML(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/ctx/response/success",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/ctx\\/response\\/success(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/ctx/response/successMore",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/ctx\\/response\\/successMore(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/ctx/response/fail",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/ctx\\/response\\/fail(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/ctx/response/throwError",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/ctx\\/response\\/throwError(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/ctx/config/test",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/ctx\\/config\\/test(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/ctx/locale/enus",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/ctx\\/locale\\/enus(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/ctx/locale/zhcn",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/ctx\\/locale\\/zhcn(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/event/hello",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/event\\/hello(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/cache/mem",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/cache\\/mem(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/cache/db",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/cache\\/db(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/cache/redis",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/cache\\/redis(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/bean",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/bean(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/bean/local",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/bean\\/local(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/httpLog",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/httpLog(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "httpLog",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/sendMail",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/sendMail(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/socketio/publish",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/socketio\\/publish(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/socketio/simpleChat",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/socketio\\/simpleChat(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/instance",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/instance(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/progress",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/progress(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/sequence",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/sequence(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/settings",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/settings(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/stats",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/stats(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/stats/plus",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/stats\\/plus(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/status",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/status(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/validation/success",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/validation\\/success(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "validate",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/validation/fail",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/validation\\/fail(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "validate",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/validation/schema",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/validation\\/schema(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "validate",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/middleware/interception",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/middleware\\/interception(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "testInterception",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/middleware/restructuring",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/middleware\\/restructuring(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "testInterception",
+      "testRestructuring",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/pushAsync",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/pushAsync(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/push",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/push(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/broadcast/emit",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/broadcast\\/emit(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/model",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/model(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/category",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/category(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/feat/tag",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/feat\\/tag(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/test/monkey/monkeyee/test",
+    "regexp": "/^\\/api\\/test\\/party\\/test\\/monkey\\/monkeyee\\/test(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "test",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/kitchen-sink/guide/echo",
+    "regexp": "/^\\/api\\/test\\/party\\/kitchen-sink\\/guide\\/echo(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/kitchen-sink/guide/echo3",
+    "regexp": "/^\\/api\\/test\\/party\\/kitchen-sink\\/guide\\/echo3(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/kitchen-sink/guide/echo4",
+    "regexp": "/^\\/api\\/test\\/party\\/kitchen-sink\\/guide\\/echo4(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/kitchen-sink/guide/echo6",
+    "regexp": "/^\\/api\\/test\\/party\\/kitchen-sink\\/guide\\/echo6(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/kitchen-sink/guide/echo7",
+    "regexp": "/^\\/api\\/test\\/party\\/kitchen-sink\\/guide\\/echo7(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/kitchen-sink/guide/echo8",
+    "regexp": "/^\\/api\\/test\\/party\\/kitchen-sink\\/guide\\/echo8(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/kitchen-sink/guide/echo9",
+    "regexp": "/^\\/api\\/test\\/party\\/kitchen-sink\\/guide\\/echo9(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "query",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/test/party/kitchen-sink/autocomplete/languages/:query",
+    "regexp": "/^\\/api\\/test\\/party\\/kitchen-sink\\/autocomplete\\/languages\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/kitchen-sink/form-schema-validation/load",
+    "regexp": "/^\\/api\\/test\\/party\\/kitchen-sink\\/form-schema-validation\\/load(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/kitchen-sink/form-schema-validation/saveSimple",
+    "regexp": "/^\\/api\\/test\\/party\\/kitchen-sink\\/form-schema-validation\\/saveSimple(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/kitchen-sink/form-schema-validation/saveValidation",
+    "regexp": "/^\\/api\\/test\\/party\\/kitchen-sink\\/form-schema-validation\\/saveValidation(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "validate",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/kitchen-sink/form-captcha/signup",
+    "regexp": "/^\\/api\\/test\\/party\\/kitchen-sink\\/form-captcha\\/signup(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "captchaVerify",
+      "validate",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/kitchen-sink/form-mobile-verify/mobileVerify",
+    "regexp": "/^\\/api\\/test\\/party\\/kitchen-sink\\/form-mobile-verify\\/mobileVerify(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "captchaVerify",
+      "validate",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/party/kitchen-sink/ptr-is-loadmore/list",
+    "regexp": "/^\\/api\\/test\\/party\\/kitchen-sink\\/ptr-is-loadmore\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/authsimple/auth/signin",
+    "regexp": "/^\\/api\\/a\\/authsimple\\/auth\\/signin(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "captchaVerify",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/authsimple/auth/signup",
+    "regexp": "/^\\/api\\/a\\/authsimple\\/auth\\/signup(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "captchaVerify",
+      "validate",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/authsimple/auth/passwordChange",
+    "regexp": "/^\\/api\\/a\\/authsimple\\/auth\\/passwordChange(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "captchaVerify",
+      "validate",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/authsimple/auth/passwordForgot",
+    "regexp": "/^\\/api\\/a\\/authsimple\\/auth\\/passwordForgot(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "validate",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/authsimple/auth/passwordReset",
+    "regexp": "/^\\/api\\/a\\/authsimple\\/auth\\/passwordReset(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "validate",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/authsimple/auth/emailConfirm",
+    "regexp": "/^\\/api\\/a\\/authsimple\\/auth\\/emailConfirm(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "validate",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/a/authsimple/auth/emailConfirmation",
+    "regexp": "/^\\/api\\/a\\/authsimple\\/auth\\/emailConfirmation(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/authsms/captcha/sendCode",
+    "regexp": "/^\\/api\\/a\\/authsms\\/captcha\\/sendCode(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/authsms/auth/signin",
+    "regexp": "/^\\/api\\/a\\/authsms\\/auth\\/signin(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "captchaVerify",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/authsms/auth/signup",
+    "regexp": "/^\\/api\\/a\\/authsms\\/auth\\/signup(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "captchaVerify",
+      "validate",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/authsms/auth/mobileVerify",
+    "regexp": "/^\\/api\\/a\\/authsms\\/auth\\/mobileVerify(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "validate",
+      "captchaVerify",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/role/children",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/role\\/children(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/role/item",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/role\\/item(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/role/save",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/role\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "validate",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/role/add",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/role\\/add(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/role/move",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/role\\/move(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/role/delete",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/role\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/role/includes",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/role\\/includes(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/role/addRoleInc",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/role\\/addRoleInc(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/role/removeRoleInc",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/role\\/removeRoleInc(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/role/dirty",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/role\\/dirty(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/role/build",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/role\\/build(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/user/select",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/user\\/select(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/user/list",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/user\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/user/item",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/user\\/item(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/user/disable",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/user\\/disable(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/user/delete",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/user\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/user/roles",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/user\\/roles(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/user/addRole",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/user\\/addRole(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/user/removeRole",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/user\\/removeRole(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/user/atomRights",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/user\\/atomRights(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/user/resourceRights",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/user\\/resourceRights(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/atomRight/rights",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/atomRight\\/rights(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/atomRight/add",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/atomRight\\/add(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/atomRight/delete",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/atomRight\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/atomRight/spreads",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/atomRight\\/spreads(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/resourceRight/rights",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/resourceRight\\/rights(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/resourceRight/add",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/resourceRight\\/add(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/resourceRight/delete",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/resourceRight\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/resourceRight/spreads",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/resourceRight\\/spreads(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/functionRight/rights",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/functionRight\\/rights(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/functionRight/add",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/functionRight\\/add(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/functionRight/delete",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/functionRight\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/functionRight/spreads",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/functionRight\\/spreads(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/auth/list",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/auth\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/auth/disable",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/auth\\/disable(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/auth/item",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/auth\\/item(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/baseadmin/auth/save",
+    "regexp": "/^\\/api\\/a\\/baseadmin\\/auth\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/captcha/captcha/createProviderInstance",
+    "regexp": "/^\\/api\\/a\\/captcha\\/captcha\\/createProviderInstance(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/a/captchasimple/captcha/image",
+    "regexp": "/^\\/api\\/a\\/captchasimple\\/captcha\\/image(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/cms/article/list",
+    "regexp": "/^\\/api\\/a\\/cms\\/article\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/cms/article/attachments",
+    "regexp": "/^\\/api\\/a\\/cms\\/article\\/attachments(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/cms/comment/all",
+    "regexp": "/^\\/api\\/a\\/cms\\/comment\\/all(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/cms/render/getArticleUrl",
+    "regexp": "/^\\/api\\/a\\/cms\\/render\\/getArticleUrl(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/cms/site/getConfigSiteBase",
+    "regexp": "/^\\/api\\/a\\/cms\\/site\\/getConfigSiteBase(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/cms/site/getConfigSite",
+    "regexp": "/^\\/api\\/a\\/cms\\/site\\/getConfigSite(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/cms/site/setConfigSite",
+    "regexp": "/^\\/api\\/a\\/cms\\/site\\/setConfigSite(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/cms/site/getConfigLanguagePreview",
+    "regexp": "/^\\/api\\/a\\/cms\\/site\\/getConfigLanguagePreview(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/cms/site/getConfigLanguage",
+    "regexp": "/^\\/api\\/a\\/cms\\/site\\/getConfigLanguage(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/cms/site/setConfigLanguage",
+    "regexp": "/^\\/api\\/a\\/cms\\/site\\/setConfigLanguage(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/cms/site/buildLanguage",
+    "regexp": "/^\\/api\\/a\\/cms\\/site\\/buildLanguage(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/cms/site/buildLanguages",
+    "regexp": "/^\\/api\\/a\\/cms\\/site\\/buildLanguages(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/cms/site/getLanguages",
+    "regexp": "/^\\/api\\/a\\/cms\\/site\\/getLanguages(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/cms/site/getUrl",
+    "regexp": "/^\\/api\\/a\\/cms\\/site\\/getUrl(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/cms/site/getStats",
+    "regexp": "/^\\/api\\/a\\/cms\\/site\\/getStats(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "atomId",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/a/cms/rss/feed/article/comments/:atomId",
+    "regexp": "/^\\/api\\/a\\/cms\\/rss\\/feed\\/article\\/comments\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "module",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      },
+      {
+        "name": "atomClassName",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      },
+      {
+        "name": "language",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/a/cms/rss/feed/comments/:module/:atomClassName/:language",
+    "regexp": "/^\\/api\\/a\\/cms\\/rss\\/feed\\/comments\\/((?:[^\\/]+?))\\/((?:[^\\/]+?))\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "module",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      },
+      {
+        "name": "atomClassName",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      },
+      {
+        "name": "language",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/a/cms/rss/feed/:module/:atomClassName/:language",
+    "regexp": "/^\\/api\\/a\\/cms\\/rss\\/feed\\/((?:[^\\/]+?))\\/((?:[^\\/]+?))\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/cms/site/checkFile",
+    "regexp": "/^\\/api\\/a\\/cms\\/site\\/checkFile(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/dashboard/dashboard/itemByKey",
+    "regexp": "/^\\/api\\/a\\/dashboard\\/dashboard\\/itemByKey(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/dashboard/dashboard/item",
+    "regexp": "/^\\/api\\/a\\/dashboard\\/dashboard\\/item(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/dashboard/dashboard/loadItemUser",
+    "regexp": "/^\\/api\\/a\\/dashboard\\/dashboard\\/loadItemUser(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/dashboard/dashboard/saveItemUser",
+    "regexp": "/^\\/api\\/a\\/dashboard\\/dashboard\\/saveItemUser(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/dashboard/dashboard/changeItemUserName",
+    "regexp": "/^\\/api\\/a\\/dashboard\\/dashboard\\/changeItemUserName(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/dashboard/dashboard/deleteItemUser",
+    "regexp": "/^\\/api\\/a\\/dashboard\\/dashboard\\/deleteItemUser(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/dashboard/dashboard/createItemUser",
+    "regexp": "/^\\/api\\/a\\/dashboard\\/dashboard\\/createItemUser(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/dashboard/dashboard/itemUsers",
+    "regexp": "/^\\/api\\/a\\/dashboard\\/dashboard\\/itemUsers(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/dashboard/dashboard/changeItemUserDefault",
+    "regexp": "/^\\/api\\/a\\/dashboard\\/dashboard\\/changeItemUserDefault(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/dict/dict/getDict",
+    "regexp": "/^\\/api\\/a\\/dict\\/dict\\/getDict(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/file/file/upload",
+    "regexp": "/^\\/api\\/a\\/file\\/file\\/upload(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/file/file/uploadDataUrl",
+    "regexp": "/^\\/api\\/a\\/file\\/file\\/uploadDataUrl(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "downloadId",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/a/file/file/download/:downloadId",
+    "regexp": "/^\\/api\\/a\\/file\\/file\\/download\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/file/file/list",
+    "regexp": "/^\\/api\\/a\\/file\\/file\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/file/file/update",
+    "regexp": "/^\\/api\\/a\\/file\\/file\\/update(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/file/file/delete",
+    "regexp": "/^\\/api\\/a\\/file\\/file\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/file/file/all",
+    "regexp": "/^\\/api\\/a\\/file\\/file\\/all(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowchart/flow/flowChartProcess",
+    "regexp": "/^\\/api\\/a\\/flowchart\\/flow\\/flowChartProcess(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowchart/flowDef/normalizeAssignees",
+    "regexp": "/^\\/api\\/a\\/flowchart\\/flowDef\\/normalizeAssignees(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowchart/flowDef/roleChildren",
+    "regexp": "/^\\/api\\/a\\/flowchart\\/flowDef\\/roleChildren(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowchart/flowDef/userSelect",
+    "regexp": "/^\\/api\\/a\\/flowchart\\/flowDef\\/userSelect(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/flow/data",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/flow\\/data(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/select",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/select(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/count",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/count(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/claim",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/claim(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/complete",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/complete(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/appendHandleRemark",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/appendHandleRemark(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/assignees",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/assignees(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/assigneesConfirmation",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/assigneesConfirmation(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/recall",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/recall(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/cancelFlow",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/cancelFlow(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "transaction",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/viewAtom",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/viewAtom(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/editAtom",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/editAtom(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/userSelectForward",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/userSelectForward(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/forward",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/forward(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/forwardRecall",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/forwardRecall(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/userSelectSubstitute",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/userSelectSubstitute(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/substitute",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/substitute(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/flowtask/task/substituteRecall",
+    "regexp": "/^\\/api\\/a\\/flowtask\\/task\\/substituteRecall(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/icon/icon/getIcons",
+    "regexp": "/^\\/api\\/a\\/icon\\/icon\\/getIcons(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/login/auth/list",
+    "regexp": "/^\\/api\\/a\\/login\\/auth\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/socketio/subscribe",
+    "regexp": "/^\\/api\\/a\\/socketio\\/subscribe(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/socketio/unsubscribe",
+    "regexp": "/^\\/api\\/a\\/socketio\\/unsubscribe(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/socketio/messageClass/messageClass",
+    "regexp": "/^\\/api\\/a\\/socketio\\/messageClass\\/messageClass(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/socketio/message/offset",
+    "regexp": "/^\\/api\\/a\\/socketio\\/message\\/offset(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/socketio/message/select",
+    "regexp": "/^\\/api\\/a\\/socketio\\/message\\/select(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/socketio/message/count",
+    "regexp": "/^\\/api\\/a\\/socketio\\/message\\/count(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/socketio/message/setRead",
+    "regexp": "/^\\/api\\/a\\/socketio\\/message\\/setRead(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/socketio/message/delete",
+    "regexp": "/^\\/api\\/a\\/socketio\\/message\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/message/message/group",
+    "regexp": "/^\\/api\\/a\\/message\\/message\\/group(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/progress/progress/check",
+    "regexp": "/^\\/api\\/a\\/progress\\/progress\\/check(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/progress/progress/abort",
+    "regexp": "/^\\/api\\/a\\/progress\\/progress\\/abort(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/progress/progress/delete",
+    "regexp": "/^\\/api\\/a\\/progress\\/progress\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/settings/settings/instance/list",
+    "regexp": "/^\\/api\\/a\\/settings\\/settings\\/instance\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/settings/settings/instance/load",
+    "regexp": "/^\\/api\\/a\\/settings\\/settings\\/instance\\/load(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/settings/settings/instance/save",
+    "regexp": "/^\\/api\\/a\\/settings\\/settings\\/instance\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/settings/settings/user/list",
+    "regexp": "/^\\/api\\/a\\/settings\\/settings\\/user\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/settings/settings/user/load",
+    "regexp": "/^\\/api\\/a\\/settings\\/settings\\/user\\/load(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/settings/settings/user/save",
+    "regexp": "/^\\/api\\/a\\/settings\\/settings\\/user\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/share/share/generate",
+    "regexp": "/^\\/api\\/a\\/share\\/share\\/generate(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "uuid",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/a/share/go/:uuid",
+    "regexp": "/^\\/api\\/a\\/share\\/go\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/stats/stats/get",
+    "regexp": "/^\\/api\\/a\\/stats\\/stats\\/get(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/user/user/save",
+    "regexp": "/^\\/api\\/a\\/user\\/user\\/save(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "validate",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/user/user/saveAvatar",
+    "regexp": "/^\\/api\\/a\\/user\\/user\\/saveAvatar(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/user/user/saveLocale",
+    "regexp": "/^\\/api\\/a\\/user\\/user\\/saveLocale(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/user/user/agent",
+    "regexp": "/^\\/api\\/a\\/user\\/user\\/agent(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/user/user/agentsBy",
+    "regexp": "/^\\/api\\/a\\/user\\/user\\/agentsBy(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/user/user/userByMobile",
+    "regexp": "/^\\/api\\/a\\/user\\/user\\/userByMobile(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/user/user/addAgent",
+    "regexp": "/^\\/api\\/a\\/user\\/user\\/addAgent(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/user/user/removeAgent",
+    "regexp": "/^\\/api\\/a\\/user\\/user\\/removeAgent(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/user/user/switchAgent",
+    "regexp": "/^\\/api\\/a\\/user\\/user\\/switchAgent(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/user/user/switchOffAgent",
+    "regexp": "/^\\/api\\/a\\/user\\/user\\/switchOffAgent(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/user/user/authentications",
+    "regexp": "/^\\/api\\/a\\/user\\/user\\/authentications(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/user/user/authenticationDisable",
+    "regexp": "/^\\/api\\/a\\/user\\/user\\/authenticationDisable(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/user/user/themeLoad",
+    "regexp": "/^\\/api\\/a\\/user\\/user\\/themeLoad(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/user/user/themeSave",
+    "regexp": "/^\\/api\\/a\\/user\\/user\\/themeSave(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/user/public/profile",
+    "regexp": "/^\\/api\\/a\\/user\\/public\\/profile(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/useronline/userOnline/kickOut",
+    "regexp": "/^\\/api\\/a\\/useronline\\/userOnline\\/kickOut(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/validation/validation/schema",
+    "regexp": "/^\\/api\\/a\\/validation\\/validation\\/schema(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/validation/validation/validate",
+    "regexp": "/^\\/api\\/a\\/validation\\/validation\\/validate(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/a/wechat/message/index",
+    "regexp": "/^\\/api\\/a\\/wechat\\/message\\/index(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/wechat/message/index",
+    "regexp": "/^\\/api\\/a\\/wechat\\/message\\/index(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/wechat/jssdk/jsconfig",
+    "regexp": "/^\\/api\\/a\\/wechat\\/jssdk\\/jsconfig(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "scene",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/a/wechat/messageMini/:scene",
+    "regexp": "/^\\/api\\/a\\/wechat\\/messageMini\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [
+      {
+        "name": "scene",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/a/wechat/messageMini/:scene",
+    "regexp": "/^\\/api\\/a\\/wechat\\/messageMini\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/a/wechat/authMini/login",
+    "regexp": "/^\\/api\\/a\\/wechat\\/authMini\\/login(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "atomId",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/cms/plugincopyright/util/md/:atomId",
+    "regexp": "/^\\/api\\/cms\\/plugincopyright\\/util\\/md\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/wechat/test/getOpenid",
+    "regexp": "/^\\/api\\/test\\/wechat\\/test\\/getOpenid(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "inWechat",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/test/wechat/test/getOpenidMini",
+    "regexp": "/^\\/api\\/test\\/wechat\\/test\\/getOpenidMini(?:\\/(?=$))?$/",
+    "stack": [
+      "start",
+      "cors",
+      "auth",
+      "right",
+      "inWechat",
+      "wrappedController"
+    ]
+  }
+]

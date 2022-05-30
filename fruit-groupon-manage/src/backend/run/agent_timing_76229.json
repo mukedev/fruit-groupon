@@ -1,0 +1,1090 @@
+[
+  {
+    "name": "Process Start",
+    "start": 1652618959271,
+    "end": 1652618959746,
+    "duration": 475,
+    "pid": 76229,
+    "index": 0
+  },
+  {
+    "name": "Application Start",
+    "start": 1652618959747,
+    "end": 1652618962008,
+    "duration": 2261,
+    "pid": 76229,
+    "index": 1
+  },
+  {
+    "name": "Load Plugin",
+    "start": 1652618959751,
+    "end": 1652618959762,
+    "duration": 11,
+    "pid": 76229,
+    "index": 2
+  },
+  {
+    "name": "Load Config",
+    "start": 1652618959762,
+    "end": 1652618959803,
+    "duration": 41,
+    "pid": 76229,
+    "index": 3
+  },
+  {
+    "name": "Require(0) config/config.default.js",
+    "start": 1652618959763,
+    "end": 1652618959763,
+    "duration": 0,
+    "pid": 76229,
+    "index": 4
+  },
+  {
+    "name": "Require(1) config/config.local.js",
+    "start": 1652618959764,
+    "end": 1652618959765,
+    "duration": 1,
+    "pid": 76229,
+    "index": 5
+  },
+  {
+    "name": "Require(2) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-session/config/config.default.js",
+    "start": 1652618959766,
+    "end": 1652618959766,
+    "duration": 0,
+    "pid": 76229,
+    "index": 6
+  },
+  {
+    "name": "Require(3) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+    "start": 1652618959767,
+    "end": 1652618959768,
+    "duration": 1,
+    "pid": 76229,
+    "index": 7
+  },
+  {
+    "name": "Require(4) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-jsonp/config/config.default.js",
+    "start": 1652618959768,
+    "end": 1652618959769,
+    "duration": 1,
+    "pid": 76229,
+    "index": 8
+  },
+  {
+    "name": "Require(5) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-onerror/config/config.default.js",
+    "start": 1652618959769,
+    "end": 1652618959770,
+    "duration": 1,
+    "pid": 76229,
+    "index": 9
+  },
+  {
+    "name": "Require(6) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-i18n/config/config.default.js",
+    "start": 1652618959770,
+    "end": 1652618959771,
+    "duration": 1,
+    "pid": 76229,
+    "index": 10
+  },
+  {
+    "name": "Require(7) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-watcher/config/config.default.js",
+    "start": 1652618959771,
+    "end": 1652618959772,
+    "duration": 1,
+    "pid": 76229,
+    "index": 11
+  },
+  {
+    "name": "Require(8) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-schedule/config/config.default.js",
+    "start": 1652618959772,
+    "end": 1652618959773,
+    "duration": 1,
+    "pid": 76229,
+    "index": 12
+  },
+  {
+    "name": "Require(9) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/config/config.default.js",
+    "start": 1652618959773,
+    "end": 1652618959774,
+    "duration": 1,
+    "pid": 76229,
+    "index": 13
+  },
+  {
+    "name": "Require(10) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-development/config/config.default.js",
+    "start": 1652618959774,
+    "end": 1652618959775,
+    "duration": 1,
+    "pid": 76229,
+    "index": 14
+  },
+  {
+    "name": "Require(11) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/config/config.default.js",
+    "start": 1652618959775,
+    "end": 1652618959776,
+    "duration": 1,
+    "pid": 76229,
+    "index": 15
+  },
+  {
+    "name": "Require(12) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-static/config/config.default.js",
+    "start": 1652618959776,
+    "end": 1652618959777,
+    "duration": 1,
+    "pid": 76229,
+    "index": 16
+  },
+  {
+    "name": "Require(13) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-mysql/config/config.default.js",
+    "start": 1652618959778,
+    "end": 1652618959778,
+    "duration": 0,
+    "pid": 76229,
+    "index": 17
+  },
+  {
+    "name": "Require(14) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-redis/config/config.default.js",
+    "start": 1652618959779,
+    "end": 1652618959779,
+    "duration": 0,
+    "pid": 76229,
+    "index": 18
+  },
+  {
+    "name": "Require(15) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/@zhennann/egg-socket.io/config/config.default.js",
+    "start": 1652618959780,
+    "end": 1652618959781,
+    "duration": 1,
+    "pid": 76229,
+    "index": 19
+  },
+  {
+    "name": "Require(16) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "start": 1652618959782,
+    "end": 1652618959783,
+    "duration": 1,
+    "pid": 76229,
+    "index": 20
+  },
+  {
+    "name": "Require(17) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "start": 1652618959786,
+    "end": 1652618959789,
+    "duration": 3,
+    "pid": 76229,
+    "index": 21
+  },
+  {
+    "name": "Require(18) config/config.default.js",
+    "start": 1652618959790,
+    "end": 1652618959790,
+    "duration": 0,
+    "pid": 76229,
+    "index": 22
+  },
+  {
+    "name": "Require(19) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.local.js",
+    "start": 1652618959790,
+    "end": 1652618959791,
+    "duration": 1,
+    "pid": 76229,
+    "index": 23
+  },
+  {
+    "name": "Require(20) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-watcher/config/config.local.js",
+    "start": 1652618959791,
+    "end": 1652618959792,
+    "duration": 1,
+    "pid": 76229,
+    "index": 24
+  },
+  {
+    "name": "Require(21) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.local.js",
+    "start": 1652618959793,
+    "end": 1652618959793,
+    "duration": 0,
+    "pid": 76229,
+    "index": 25
+  },
+  {
+    "name": "Require(22) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.local.js",
+    "start": 1652618959795,
+    "end": 1652618959795,
+    "duration": 0,
+    "pid": 76229,
+    "index": 26
+  },
+  {
+    "name": "Require(23) config/config.local.js",
+    "start": 1652618959803,
+    "end": 1652618959803,
+    "duration": 0,
+    "pid": 76229,
+    "index": 27
+  },
+  {
+    "name": "Load extend/agent.js",
+    "start": 1652618959804,
+    "end": 1652618959847,
+    "duration": 43,
+    "pid": 76229,
+    "index": 28
+  },
+  {
+    "name": "Require(24) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/app/extend/agent.js",
+    "start": 1652618959805,
+    "end": 1652618959806,
+    "duration": 1,
+    "pid": 76229,
+    "index": 29
+  },
+  {
+    "name": "Require(25) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-schedule/app/extend/agent.js",
+    "start": 1652618959807,
+    "end": 1652618959842,
+    "duration": 35,
+    "pid": 76229,
+    "index": 30
+  },
+  {
+    "name": "Require(26) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/extend/agent.js",
+    "start": 1652618959843,
+    "end": 1652618959844,
+    "duration": 1,
+    "pid": 76229,
+    "index": 31
+  },
+  {
+    "name": "Load extend/context.js",
+    "start": 1652618959847,
+    "end": 1652618959929,
+    "duration": 82,
+    "pid": 76229,
+    "index": 32
+  },
+  {
+    "name": "Require(27) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/app/extend/context.js",
+    "start": 1652618959848,
+    "end": 1652618959855,
+    "duration": 7,
+    "pid": 76229,
+    "index": 33
+  },
+  {
+    "name": "Require(28) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-jsonp/app/extend/context.js",
+    "start": 1652618959856,
+    "end": 1652618959858,
+    "duration": 2,
+    "pid": 76229,
+    "index": 34
+  },
+  {
+    "name": "Require(29) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-i18n/app/extend/context.js",
+    "start": 1652618959859,
+    "end": 1652618959859,
+    "duration": 0,
+    "pid": 76229,
+    "index": 35
+  },
+  {
+    "name": "Require(30) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/app/extend/context.js",
+    "start": 1652618959860,
+    "end": 1652618959899,
+    "duration": 39,
+    "pid": 76229,
+    "index": 36
+  },
+  {
+    "name": "Require(31) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-passport/app/extend/context.js",
+    "start": 1652618959899,
+    "end": 1652618959900,
+    "duration": 1,
+    "pid": 76229,
+    "index": 37
+  },
+  {
+    "name": "Require(32) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/app/extend/context.js",
+    "start": 1652618959901,
+    "end": 1652618959902,
+    "duration": 1,
+    "pid": 76229,
+    "index": 38
+  },
+  {
+    "name": "Require(33) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/app/extend/context.js",
+    "start": 1652618959902,
+    "end": 1652618959928,
+    "duration": 26,
+    "pid": 76229,
+    "index": 39
+  },
+  {
+    "name": "Load agent.js",
+    "start": 1652618959930,
+    "end": 1652618959951,
+    "duration": 21,
+    "pid": 76229,
+    "index": 40
+  },
+  {
+    "name": "Require(34) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/agent.js",
+    "start": 1652618959930,
+    "end": 1652618959930,
+    "duration": 0,
+    "pid": 76229,
+    "index": 41
+  },
+  {
+    "name": "Require(35) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-onerror/agent.js",
+    "start": 1652618959931,
+    "end": 1652618959932,
+    "duration": 1,
+    "pid": 76229,
+    "index": 42
+  },
+  {
+    "name": "Require(36) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-watcher/agent.js",
+    "start": 1652618959932,
+    "end": 1652618959936,
+    "duration": 4,
+    "pid": 76229,
+    "index": 43
+  },
+  {
+    "name": "Require(37) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-schedule/agent.js",
+    "start": 1652618959936,
+    "end": 1652618959938,
+    "duration": 2,
+    "pid": 76229,
+    "index": 44
+  },
+  {
+    "name": "Require(38) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-development/agent.js",
+    "start": 1652618959939,
+    "end": 1652618959946,
+    "duration": 7,
+    "pid": 76229,
+    "index": 45
+  },
+  {
+    "name": "Require(39) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/agent.js",
+    "start": 1652618959946,
+    "end": 1652618959947,
+    "duration": 1,
+    "pid": 76229,
+    "index": 46
+  },
+  {
+    "name": "Require(40) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-mysql/agent.js",
+    "start": 1652618959947,
+    "end": 1652618959948,
+    "duration": 1,
+    "pid": 76229,
+    "index": 47
+  },
+  {
+    "name": "Require(41) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-redis/agent.js",
+    "start": 1652618959949,
+    "end": 1652618959950,
+    "duration": 1,
+    "pid": 76229,
+    "index": 48
+  },
+  {
+    "name": "Require(42) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/agent.js",
+    "start": 1652618959950,
+    "end": 1652618959951,
+    "duration": 1,
+    "pid": 76229,
+    "index": 49
+  },
+  {
+    "name": "Before Start in /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-watcher/lib/init.js:15:14",
+    "start": 1652618959956,
+    "end": 1652618961998,
+    "duration": 2042,
+    "pid": 76229,
+    "index": 50
+  },
+  {
+    "name": "Before Start in /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-schedule/agent.js:12:9",
+    "start": 1652618959958,
+    "end": 1652618961977,
+    "duration": 2019,
+    "pid": 76229,
+    "index": 51
+  },
+  {
+    "name": "Before Start in /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-development/agent.js:12:9",
+    "start": 1652618959959,
+    "end": 1652618962007,
+    "duration": 2048,
+    "pid": 76229,
+    "index": 52
+  },
+  {
+    "name": "Require(43) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-version/dist/backend.js",
+    "start": 1652618960036,
+    "end": 1652618960037,
+    "duration": 1,
+    "pid": 76229,
+    "index": 53
+  },
+  {
+    "name": "Require(44) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-instance/dist/backend.js",
+    "start": 1652618960041,
+    "end": 1652618960042,
+    "duration": 1,
+    "pid": 76229,
+    "index": 54
+  },
+  {
+    "name": "Require(45) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-status/dist/backend.js",
+    "start": 1652618960053,
+    "end": 1652618960054,
+    "duration": 1,
+    "pid": 76229,
+    "index": 55
+  },
+  {
+    "name": "Require(46) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-sequence/dist/backend.js",
+    "start": 1652618960055,
+    "end": 1652618960056,
+    "duration": 1,
+    "pid": 76229,
+    "index": 56
+  },
+  {
+    "name": "Require(47) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-base-sync/dist/backend.js",
+    "start": 1652618960057,
+    "end": 1652618960575,
+    "duration": 518,
+    "pid": 76229,
+    "index": 57
+  },
+  {
+    "name": "Require(48) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-detail/dist/backend.js",
+    "start": 1652618960674,
+    "end": 1652618960677,
+    "duration": 3,
+    "pid": 76229,
+    "index": 58
+  },
+  {
+    "name": "Require(49) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-flow/dist/backend.js",
+    "start": 1652618960679,
+    "end": 1652618960682,
+    "duration": 3,
+    "pid": 76229,
+    "index": 59
+  },
+  {
+    "name": "Require(50) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/module-vendor/test-flow/dist/backend.js",
+    "start": 1652618960685,
+    "end": 1652618960686,
+    "duration": 1,
+    "pid": 76229,
+    "index": 60
+  },
+  {
+    "name": "Require(51) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/module-vendor/test-note/dist/backend.js",
+    "start": 1652618960690,
+    "end": 1652618960691,
+    "duration": 1,
+    "pid": 76229,
+    "index": 61
+  },
+  {
+    "name": "Require(52) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/module-vendor/test-party/dist/backend.js",
+    "start": 1652618960692,
+    "end": 1652618960697,
+    "duration": 5,
+    "pid": 76229,
+    "index": 62
+  },
+  {
+    "name": "Require(53) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/module-vendor/test-partymonkey-monkey/backend/src/main.js",
+    "start": 1652618960707,
+    "end": 1652618960709,
+    "duration": 2,
+    "pid": 76229,
+    "index": 63
+  },
+  {
+    "name": "Require(54) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-antdv/dist/backend.js",
+    "start": 1652618960711,
+    "end": 1652618960712,
+    "duration": 1,
+    "pid": 76229,
+    "index": 64
+  },
+  {
+    "name": "Require(55) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-antvg6/dist/backend.js",
+    "start": 1652618960713,
+    "end": 1652618960714,
+    "duration": 1,
+    "pid": 76229,
+    "index": 65
+  },
+  {
+    "name": "Require(56) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-antvlayout/dist/backend.js",
+    "start": 1652618960714,
+    "end": 1652618960715,
+    "duration": 1,
+    "pid": 76229,
+    "index": 66
+  },
+  {
+    "name": "Require(57) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-antvx6/dist/backend.js",
+    "start": 1652618960715,
+    "end": 1652618960716,
+    "duration": 1,
+    "pid": 76229,
+    "index": 67
+  },
+  {
+    "name": "Require(58) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-authgithub/dist/backend.js",
+    "start": 1652618960716,
+    "end": 1652618960741,
+    "duration": 25,
+    "pid": 76229,
+    "index": 68
+  },
+  {
+    "name": "Require(59) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-authsimple/dist/backend.js",
+    "start": 1652618960741,
+    "end": 1652618960744,
+    "duration": 3,
+    "pid": 76229,
+    "index": 69
+  },
+  {
+    "name": "Require(60) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-authsms/dist/backend.js",
+    "start": 1652618960745,
+    "end": 1652618960747,
+    "duration": 2,
+    "pid": 76229,
+    "index": 70
+  },
+  {
+    "name": "Require(61) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-baseadmin/dist/backend.js",
+    "start": 1652618960787,
+    "end": 1652618960788,
+    "duration": 1,
+    "pid": 76229,
+    "index": 71
+  },
+  {
+    "name": "Require(62) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-basefront/dist/backend.js",
+    "start": 1652618960790,
+    "end": 1652618960792,
+    "duration": 2,
+    "pid": 76229,
+    "index": 72
+  },
+  {
+    "name": "Require(63) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-baselayout/dist/backend.js",
+    "start": 1652618960792,
+    "end": 1652618960793,
+    "duration": 1,
+    "pid": 76229,
+    "index": 73
+  },
+  {
+    "name": "Require(64) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-cache/dist/backend.js",
+    "start": 1652618960793,
+    "end": 1652618960794,
+    "duration": 1,
+    "pid": 76229,
+    "index": 74
+  },
+  {
+    "name": "Require(65) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-captcha/dist/backend.js",
+    "start": 1652618960795,
+    "end": 1652618960796,
+    "duration": 1,
+    "pid": 76229,
+    "index": 75
+  },
+  {
+    "name": "Require(66) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-captchasimple/dist/backend.js",
+    "start": 1652618960797,
+    "end": 1652618960798,
+    "duration": 1,
+    "pid": 76229,
+    "index": 76
+  },
+  {
+    "name": "Require(67) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-chartjs/dist/backend.js",
+    "start": 1652618960803,
+    "end": 1652618960804,
+    "duration": 1,
+    "pid": 76229,
+    "index": 77
+  },
+  {
+    "name": "Require(68) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-cms/dist/backend.js",
+    "start": 1652618960804,
+    "end": 1652618960840,
+    "duration": 36,
+    "pid": 76229,
+    "index": 78
+  },
+  {
+    "name": "Require(69) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-codemirror/dist/backend.js",
+    "start": 1652618961213,
+    "end": 1652618961214,
+    "duration": 1,
+    "pid": 76229,
+    "index": 79
+  },
+  {
+    "name": "Require(70) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-components-sync/dist/backend.js",
+    "start": 1652618961214,
+    "end": 1652618961215,
+    "duration": 1,
+    "pid": 76229,
+    "index": 80
+  },
+  {
+    "name": "Require(71) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-dashboard/dist/backend.js",
+    "start": 1652618961215,
+    "end": 1652618961217,
+    "duration": 2,
+    "pid": 76229,
+    "index": 81
+  },
+  {
+    "name": "Require(72) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-dict/dist/backend.js",
+    "start": 1652618961218,
+    "end": 1652618961219,
+    "duration": 1,
+    "pid": 76229,
+    "index": 82
+  },
+  {
+    "name": "Require(73) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-dictbooster/dist/backend.js",
+    "start": 1652618961220,
+    "end": 1652618961230,
+    "duration": 10,
+    "pid": 76229,
+    "index": 83
+  },
+  {
+    "name": "Require(74) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-echarts/dist/backend.js",
+    "start": 1652618961277,
+    "end": 1652618961279,
+    "duration": 2,
+    "pid": 76229,
+    "index": 84
+  },
+  {
+    "name": "Require(75) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-event/dist/backend.js",
+    "start": 1652618961279,
+    "end": 1652618961280,
+    "duration": 1,
+    "pid": 76229,
+    "index": 85
+  },
+  {
+    "name": "Require(76) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-file/dist/backend.js",
+    "start": 1652618961280,
+    "end": 1652618961282,
+    "duration": 2,
+    "pid": 76229,
+    "index": 86
+  },
+  {
+    "name": "Require(77) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-flowbehavior/dist/backend.js",
+    "start": 1652618961321,
+    "end": 1652618961322,
+    "duration": 1,
+    "pid": 76229,
+    "index": 87
+  },
+  {
+    "name": "Require(78) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-flowchart/dist/backend.js",
+    "start": 1652618961323,
+    "end": 1652618961324,
+    "duration": 1,
+    "pid": 76229,
+    "index": 88
+  },
+  {
+    "name": "Require(79) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-flownode/dist/backend.js",
+    "start": 1652618961324,
+    "end": 1652618961326,
+    "duration": 2,
+    "pid": 76229,
+    "index": 89
+  },
+  {
+    "name": "Require(80) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-flowtask/dist/backend.js",
+    "start": 1652618961327,
+    "end": 1652618961331,
+    "duration": 4,
+    "pid": 76229,
+    "index": 90
+  },
+  {
+    "name": "Require(81) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-host/dist/backend.js",
+    "start": 1652618961336,
+    "end": 1652618961337,
+    "duration": 1,
+    "pid": 76229,
+    "index": 91
+  },
+  {
+    "name": "Require(82) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-hostwechat-sync/dist/backend.js",
+    "start": 1652618961337,
+    "end": 1652618961338,
+    "duration": 1,
+    "pid": 76229,
+    "index": 92
+  },
+  {
+    "name": "Require(83) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-icon/dist/backend.js",
+    "start": 1652618961339,
+    "end": 1652618961340,
+    "duration": 1,
+    "pid": 76229,
+    "index": 93
+  },
+  {
+    "name": "Require(84) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-iconbooster/dist/backend.js",
+    "start": 1652618961340,
+    "end": 1652618961342,
+    "duration": 2,
+    "pid": 76229,
+    "index": 94
+  },
+  {
+    "name": "Require(85) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-jsoneditor/dist/backend.js",
+    "start": 1652618961343,
+    "end": 1652618961344,
+    "duration": 1,
+    "pid": 76229,
+    "index": 95
+  },
+  {
+    "name": "Require(86) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-layoutmobile/dist/backend.js",
+    "start": 1652618961344,
+    "end": 1652618961345,
+    "duration": 1,
+    "pid": 76229,
+    "index": 96
+  },
+  {
+    "name": "Require(87) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-layoutpc/dist/backend.js",
+    "start": 1652618961346,
+    "end": 1652618961348,
+    "duration": 2,
+    "pid": 76229,
+    "index": 97
+  },
+  {
+    "name": "Require(88) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-login/dist/backend.js",
+    "start": 1652618961349,
+    "end": 1652618961350,
+    "duration": 1,
+    "pid": 76229,
+    "index": 98
+  },
+  {
+    "name": "Require(89) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-mail/dist/backend.js",
+    "start": 1652618961351,
+    "end": 1652618961352,
+    "duration": 1,
+    "pid": 76229,
+    "index": 99
+  },
+  {
+    "name": "Require(90) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-markdown/dist/backend.js",
+    "start": 1652618961407,
+    "end": 1652618961408,
+    "duration": 1,
+    "pid": 76229,
+    "index": 100
+  },
+  {
+    "name": "Require(91) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-markdownblock/dist/backend.js",
+    "start": 1652618961759,
+    "end": 1652618961760,
+    "duration": 1,
+    "pid": 76229,
+    "index": 101
+  },
+  {
+    "name": "Require(92) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-markdownrender/dist/backend.js",
+    "start": 1652618961761,
+    "end": 1652618961761,
+    "duration": 0,
+    "pid": 76229,
+    "index": 102
+  },
+  {
+    "name": "Require(93) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-markdownstyle/dist/backend.js",
+    "start": 1652618961762,
+    "end": 1652618961764,
+    "duration": 2,
+    "pid": 76229,
+    "index": 103
+  },
+  {
+    "name": "Require(94) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-socketio/dist/backend.js",
+    "start": 1652618961764,
+    "end": 1652618961766,
+    "duration": 2,
+    "pid": 76229,
+    "index": 104
+  },
+  {
+    "name": "Require(95) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-message/dist/backend.js",
+    "start": 1652618961768,
+    "end": 1652618961769,
+    "duration": 1,
+    "pid": 76229,
+    "index": 105
+  },
+  {
+    "name": "Require(96) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-oauth/dist/backend.js",
+    "start": 1652618961770,
+    "end": 1652618961771,
+    "duration": 1,
+    "pid": 76229,
+    "index": 106
+  },
+  {
+    "name": "Require(97) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-progress/dist/backend.js",
+    "start": 1652618961771,
+    "end": 1652618961772,
+    "duration": 1,
+    "pid": 76229,
+    "index": 107
+  },
+  {
+    "name": "Require(98) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-settings/dist/backend.js",
+    "start": 1652618961773,
+    "end": 1652618961774,
+    "duration": 1,
+    "pid": 76229,
+    "index": 108
+  },
+  {
+    "name": "Require(99) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-share/dist/backend.js",
+    "start": 1652618961775,
+    "end": 1652618961775,
+    "duration": 0,
+    "pid": 76229,
+    "index": 109
+  },
+  {
+    "name": "Require(100) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-stats/dist/backend.js",
+    "start": 1652618961776,
+    "end": 1652618961777,
+    "duration": 1,
+    "pid": 76229,
+    "index": 110
+  },
+  {
+    "name": "Require(101) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-themebrilliant/dist/backend.js",
+    "start": 1652618961778,
+    "end": 1652618961779,
+    "duration": 1,
+    "pid": 76229,
+    "index": 111
+  },
+  {
+    "name": "Require(102) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-themehyacinth/dist/backend.js",
+    "start": 1652618961779,
+    "end": 1652618961780,
+    "duration": 1,
+    "pid": 76229,
+    "index": 112
+  },
+  {
+    "name": "Require(103) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-user/dist/backend.js",
+    "start": 1652618961780,
+    "end": 1652618961781,
+    "duration": 1,
+    "pid": 76229,
+    "index": 113
+  },
+  {
+    "name": "Require(104) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-useronline/dist/backend.js",
+    "start": 1652618961782,
+    "end": 1652618961783,
+    "duration": 1,
+    "pid": 76229,
+    "index": 114
+  },
+  {
+    "name": "Require(105) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-validation/dist/backend.js",
+    "start": 1652618961784,
+    "end": 1652618961786,
+    "duration": 2,
+    "pid": 76229,
+    "index": 115
+  },
+  {
+    "name": "Require(106) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-wechat/dist/backend.js",
+    "start": 1652618961880,
+    "end": 1652618961882,
+    "duration": 2,
+    "pid": 76229,
+    "index": 116
+  },
+  {
+    "name": "Require(107) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-pluginbase/dist/backend.js",
+    "start": 1652618961916,
+    "end": 1652618961916,
+    "duration": 0,
+    "pid": 76229,
+    "index": 117
+  },
+  {
+    "name": "Require(108) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-pluginarticle/dist/backend.js",
+    "start": 1652618961917,
+    "end": 1652618961918,
+    "duration": 1,
+    "pid": 76229,
+    "index": 118
+  },
+  {
+    "name": "Require(109) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-pluginbacktotop/dist/backend.js",
+    "start": 1652618961918,
+    "end": 1652618961919,
+    "duration": 1,
+    "pid": 76229,
+    "index": 119
+  },
+  {
+    "name": "Require(110) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-plugincopyright/dist/backend.js",
+    "start": 1652618961919,
+    "end": 1652618961920,
+    "duration": 1,
+    "pid": 76229,
+    "index": 120
+  },
+  {
+    "name": "Require(111) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-pluginmarkdowngithub/dist/backend.js",
+    "start": 1652618961920,
+    "end": 1652618961921,
+    "duration": 1,
+    "pid": 76229,
+    "index": 121
+  },
+  {
+    "name": "Require(112) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-pluginrss/dist/backend.js",
+    "start": 1652618961921,
+    "end": 1652618961922,
+    "duration": 1,
+    "pid": 76229,
+    "index": 122
+  },
+  {
+    "name": "Require(113) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-pluginsidebar/dist/backend.js",
+    "start": 1652618961922,
+    "end": 1652618961923,
+    "duration": 1,
+    "pid": 76229,
+    "index": 123
+  },
+  {
+    "name": "Require(114) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-pluginsocialshare/dist/backend.js",
+    "start": 1652618961923,
+    "end": 1652618961924,
+    "duration": 1,
+    "pid": 76229,
+    "index": 124
+  },
+  {
+    "name": "Require(115) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-pluginsubmit/dist/backend.js",
+    "start": 1652618961924,
+    "end": 1652618961925,
+    "duration": 1,
+    "pid": 76229,
+    "index": 125
+  },
+  {
+    "name": "Require(116) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-plugintrack/dist/backend.js",
+    "start": 1652618961926,
+    "end": 1652618961927,
+    "duration": 1,
+    "pid": 76229,
+    "index": 126
+  },
+  {
+    "name": "Require(117) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-pluginuser/dist/backend.js",
+    "start": 1652618961927,
+    "end": 1652618961928,
+    "duration": 1,
+    "pid": 76229,
+    "index": 127
+  },
+  {
+    "name": "Require(118) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-pluginwechatsdk/dist/backend.js",
+    "start": 1652618961928,
+    "end": 1652618961929,
+    "duration": 1,
+    "pid": 76229,
+    "index": 128
+  },
+  {
+    "name": "Require(119) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-pluginwechatshare/dist/backend.js",
+    "start": 1652618961929,
+    "end": 1652618961930,
+    "duration": 1,
+    "pid": 76229,
+    "index": 129
+  },
+  {
+    "name": "Require(120) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-themeaws/dist/backend.js",
+    "start": 1652618961930,
+    "end": 1652618961931,
+    "duration": 1,
+    "pid": 76229,
+    "index": 130
+  },
+  {
+    "name": "Require(121) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-themeblog/dist/backend.js",
+    "start": 1652618961931,
+    "end": 1652618961932,
+    "duration": 1,
+    "pid": 76229,
+    "index": 131
+  },
+  {
+    "name": "Require(122) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-themecommunity/dist/backend.js",
+    "start": 1652618961932,
+    "end": 1652618961933,
+    "duration": 1,
+    "pid": 76229,
+    "index": 132
+  },
+  {
+    "name": "Require(123) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-cms-themedocs/dist/backend.js",
+    "start": 1652618961933,
+    "end": 1652618961934,
+    "duration": 1,
+    "pid": 76229,
+    "index": 133
+  },
+  {
+    "name": "Require(124) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-test-wechat/dist/backend.js",
+    "start": 1652618961934,
+    "end": 1652618961935,
+    "duration": 1,
+    "pid": 76229,
+    "index": 134
+  },
+  {
+    "name": "Require(125) /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-module-a-index/dist/backend.js",
+    "start": 1652618961936,
+    "end": 1652618961937,
+    "duration": 1,
+    "pid": 76229,
+    "index": 135
+  }
+]

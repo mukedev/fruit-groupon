@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://localhost:9092/api/static/public/1/cms.test-party.party/dist/sitemapindex.xml

@@ -1,0 +1,31 @@
+{
+  "name": "fruit-groupon",
+  "version": "1.0.0",
+  "title": "fruit-groupon",
+  "description": "",
+  "keywords": [
+    "Cabloy Project"
+  ],
+  "scripts": {
+    "db:reset": "egg-born-bin backend-db-reset",
+    "dev:front": "egg-born-bin front-dev",
+    "build:front": "egg-born-bin front-build",
+    "dev:backend": "egg-born-bin backend-dev",
+    "debug:backend": "egg-born-bin backend-debug",
+    "test:backend": "egg-born-bin backend-test",
+    "cov:backend": "egg-born-bin backend-cov",
+    "start:backend": "egg-born-scripts backend-start",
+    "start:backend-daemon": "egg-born-scripts backend-start --daemon",
+    "stop:backend": "egg-born-scripts backend-stop",
+    "update:test": "egg-born-bin test-update",
+    "format": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.jsx\" \"**/*.vue\"",
+    "lint": "prettier --check \"**/*.js\" \"**/*.json\" \"**/*.jsx\" \"**/*.vue\"",
+    "tools:babel": "egg-born-bin tools-babel",
+    "tools:icons": "egg-born-bin tools-icons"
+  },
+  "author": "zhangYu",
+  "dependencies": {
+    "cabloy": "^4.13.10",
+    "egg-born-module-test-wechat": "^5.2.10"
+  }
+}

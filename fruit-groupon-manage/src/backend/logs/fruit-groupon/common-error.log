@@ -1,0 +1,64 @@
+2022-05-13 08:59:52,668 ERROR 43153 nodejs.ClusterClientNoResponseError: client no response in 242868ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 43153
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-13 08:59:52,709 ERROR 43153 nodejs.ClusterClientNoResponseError: client no response in 242867ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 43153
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-13 09:14:54,109 ERROR 43153 nodejs.ClusterClientNoResponseError: client no response in 880660ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 43153
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-13 09:14:54,109 ERROR 43153 nodejs.ClusterClientNoResponseError: client no response in 880644ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 43153
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-13 09:29:56,115 ERROR 43153 nodejs.ClusterClientNoResponseError: client no response in 901225ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 43153
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-13 09:29:56,146 ERROR 43153 nodejs.ClusterClientNoResponseError: client no response in 901220ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 43153
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-13 09:34:31,708 ERROR 43153 nodejs.ClusterClientNoResponseError: client no response in 274852ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 43153
+hostname: zhangyudeMacBook-Pro.local
+
+2022-05-13 09:34:31,709 ERROR 43153 nodejs.ClusterClientNoResponseError: client no response in 274852ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ClusterClientNoResponseError"
+pid: 43153
+hostname: zhangyudeMacBook-Pro.local
+

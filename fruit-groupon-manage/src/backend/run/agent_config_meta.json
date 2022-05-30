@@ -1,0 +1,438 @@
+{
+  "keys": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+  "disabledModules": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.default.js",
+  "subdomainOffset": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.default.js",
+  "cookies": {
+    "overwrite": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "sameSite": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.default.js"
+  },
+  "modules": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+  "mysql": {
+    "clients": {
+      "__ebdb": {
+        "host": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "port": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "user": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "password": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "database": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "charset": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "hook": {
+          "meta": {
+            "long_query_time": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+            "color": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+          },
+          "callback": {
+            "onConnection": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+            "onQuery": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+          }
+        }
+      }
+    },
+    "default": {
+      "database": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+      "connectionLimitInner": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+    },
+    "app": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "agent": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+  },
+  "redisConnection": {
+    "default": {
+      "host": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+      "port": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+      "password": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+      "db": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js"
+    },
+    "cache": {
+      "host": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+      "port": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+      "password": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+      "db": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+      "keyPrefix": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js"
+    },
+    "io": {
+      "host": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+      "port": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+      "password": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+      "db": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+      "keyPrefix": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js"
+    },
+    "auth": {
+      "host": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+      "port": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+      "password": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+      "db": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+      "keyPrefix": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js"
+    }
+  },
+  "redis": {
+    "clients": {
+      "redlock": {
+        "host": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "port": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "password": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "db": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js"
+      },
+      "limiter": {
+        "host": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "port": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "password": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "db": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js"
+      },
+      "queue": {
+        "host": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "port": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "password": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "db": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js"
+      },
+      "broadcast": {
+        "host": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "port": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "password": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "db": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js"
+      },
+      "cache": {
+        "host": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "port": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "password": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "db": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "keyPrefix": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js"
+      },
+      "io": {
+        "host": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "port": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "password": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "db": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "keyPrefix": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js"
+      },
+      "auth": {
+        "host": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "port": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "password": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "db": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js",
+        "keyPrefix": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/src/backend/config/config.local.js"
+      }
+    },
+    "default": {
+      "maxRetriesPerRequest": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+      "enableReadyCheck": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+    },
+    "app": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "agent": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "supportTimeCommand": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-redis/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "httpOnly": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "encrypt": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "logValue": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+      "type": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "templatePath": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-onerror/config/config.default.js",
+    "json": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "dirs": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "files": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "whitelist": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.local.js",
+    "ignoreDirs": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.local.js",
+    "overrideIgnore": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "dir": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "buffer": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-static/config/config.default.js",
+    "alias": {
+      "/favicon.ico": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+    },
+    "getFullPath": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+  },
+  "io": {
+    "init": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "namespace": {
+      "/": {
+        "connectionMiddleware": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+        "packetMiddleware": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+      }
+    },
+    "generateId": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+  },
+  "env": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+  "name": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.local.js",
+  "maxIpsCount": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.local.js",
+  "hostHeaders": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "jsonLimit": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "textLimit": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "strict": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+      "depth": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "env": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "level": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "logging": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+      "port": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+      "hostname": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg/config/config.default.js",
+  "jwt": {
+    "secret": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "credentialsRequired": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "property": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "scene": {
+      "query": {
+        "maxAge": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+      }
+    },
+    "oauth": {
+      "accessToken": {
+        "maxAge": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+      },
+      "refreshToken": {
+        "maxAge": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+      }
+    }
+  },
+  "model": {
+    "disableDeleted": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+    "disableInstance": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+  },
+  "appReady": {
+    "ignore": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+  },
+  "instance": {
+    "ignore": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+  },
+  "queue": {
+    "redlock": {
+      "clients": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+      "options": {
+        "driftFactor": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+        "retryCount": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+        "retryDelay": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+        "retryJitter": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+        "lockTTL": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.local.js"
+      }
+    },
+    "bottleneck": {
+      "expiration": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+    },
+    "startup": {
+      "debounce": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+    },
+    "worker": {
+      "lockDuration": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+    },
+    "scheduler": {
+      "maxStalledCount": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js",
+      "stalledInterval": "/Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-born-backend/config/config.default.js"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+2022-05-12 22:03:33,904 INFO 43009 [egg-schedule]: register schedule /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-05-12 22:03:33,904 INFO 43009 [egg-schedule]: register schedule /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-05-12 22:03:33,904 INFO 43009 [egg-schedule]: register schedule /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-05-12 22:03:34,277 INFO 43009 [Timer] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23185727ms at 2022-05-13 04:30:00.004
+2022-05-12 22:03:34,277 INFO 43009 [Timer] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 6985723ms at 2022-05-13 00:00:00.000
+2022-05-12 22:03:34,278 INFO 43009 [Timer] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 6986723ms at 2022-05-13 00:00:01.001
+2022-05-12 22:06:19,816 INFO 43154 [egg-schedule]: register schedule /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-05-12 22:06:19,816 INFO 43154 [egg-schedule]: register schedule /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-05-12 22:06:19,816 INFO 43154 [egg-schedule]: register schedule /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-05-12 22:06:19,816 INFO 43155 [egg-schedule]: register schedule /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2022-05-12 22:06:19,816 INFO 43155 [egg-schedule]: register schedule /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/clean_log.js
+2022-05-12 22:06:19,816 INFO 43155 [egg-schedule]: register schedule /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2022-05-12 22:06:21,035 INFO 43153 [Timer] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23018967ms at 2022-05-13 04:30:00.002
+2022-05-12 22:06:21,036 INFO 43153 [Timer] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 6818965ms at 2022-05-13 00:00:00.001
+2022-05-12 22:06:21,036 INFO 43153 [Timer] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 6819964ms at 2022-05-13 00:00:01.000
+2022-05-13 08:55:49,767 INFO 43154 [Job#16524033497514311144660530701] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2022-05-13 08:55:49,784 INFO 43154 [Job#16524033497834311144984911461] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2022-05-13 08:55:49,791 INFO 43154 [Job#16524033497864311145014038171] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2022-05-13 08:55:49,802 INFO 43154 [Job#16524033497514311144660530701] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 28ms. 
+2022-05-13 08:55:49,808 INFO 43154 [Job#16524033497864311145014038171] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 17ms. 
+2022-05-13 08:55:49,808 INFO 43154 [Job#16524033497834311144984911461] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 24ms. 
+2022-05-13 08:55:49,780 INFO 43153 [Timer] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 54250238ms at 2022-05-14 00:00:00.018
+2022-05-13 08:55:49,786 INFO 43153 [Timer] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 54251217ms at 2022-05-14 00:00:01.003
+2022-05-13 08:55:49,793 INFO 43153 [Timer] /Users/zhangyu/project/wx/fruit-groupon/fruit-groupon/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 70450214ms at 2022-05-14 04:30:00.007

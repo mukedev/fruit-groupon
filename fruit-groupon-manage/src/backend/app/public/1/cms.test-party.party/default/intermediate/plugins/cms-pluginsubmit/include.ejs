@@ -1,0 +1,16 @@
+<%
+  // check
+  if(typeof article!=='undefined' && site.render && site.render.scene==='single' && !site.render.inner){
+    const articleLink=url(article.url);
+    // submit
+    await ctx.meta.util.executeBean({
+      beanModule:'cms-pluginsubmit',
+      beanFullName:'cms-pluginsubmit.service.util',
+      context:{
+        links:[articleLink],
+        config:site.plugins['cms-pluginsubmit'],
+      },
+      fn:'submit',
+    });
+  }
+%>

@@ -1,0 +1,81 @@
+(function () {
+  // socketio adapter
+  const __socketioAdapter = {
+    _io: null,
+    initialize(io) {
+      const self = this;
+      self._io = io;
+      $(document).on('echo-ready', function () {
+        // reset
+        self._io.reset();
+      });
+      // visibilitychange
+      $(document).on('visibilitychange', function () {
+        if (document.visibilityState === 'hidden') {
+          self._io.disconnect();
+        }
+        if (document.visibilityState === 'visible') {
+          if (!util.user.op.anonymous) {
+            self._io.connect();
+          }
+        }
+      });
+      // reset
+      self._io.reset();
+    },
+    subscribe({ subscribes, socketId }) {
+      return util.performAction({
+        method: 'post',
+        url: '/a/socketio/subscribe',
+        body: { subscribes, socketId },
+      });
+    },
+    unsubscribe({ subscribes }) {
+      return util.performAction({
+        method: 'post',
+        url: '/a/socketio/unsubscribe',
+        body: { subscribes },
+      });
+    },
+    socket() {
+      // url
+      const url = '<%=site.serverUrl%>';
+      // opts
+      const opts = {
+        autoConnect: false,
+        withCredentials: true,
+        transports: ['websocket'],
+      };
+      opts.query = {
+        'x-scene': util.user.provider.scene,
+        'x-clientid': util.clientId,
+      };
+      return window.io(url, opts);
+    },
+    user() {
+      return util.user;
+    },
+    logout() {
+      location.reload(true);
+    },
+  };
+
+  // socketio
+  Object.defineProperty(util, 'io', {
+    get() {
+      if (!util.__io) {
+        const _io = window.socketio.default(__socketioAdapter);
+        const _subscribe = _io.subscribe;
+        _io.subscribe = function (path, cbMessage, cbSubscribed, options) {
+          options = options || {};
+          if (options.scene === undefined) {
+            options.scene = util.clientId;
+          }
+          return _subscribe.call(_io, path, cbMessage, cbSubscribed, options);
+        };
+        util.__io = _io;
+      }
+      return util.__io;
+    },
+  });
+})();
