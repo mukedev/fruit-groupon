@@ -26,6 +26,7 @@
 		margin: 20upx;
 		padding: 20upx;
 		background-color: #fff;
+		border-radius: 20upx;
 	}
 	.container view:nth-child(1) {
 		text-align: center;
