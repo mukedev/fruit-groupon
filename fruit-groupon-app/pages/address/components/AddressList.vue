@@ -23,7 +23,7 @@
 			<image src="../../../static/images/point/23.png" mode="widthFix"></image>
 		</view>
 		
-		<view class="addAddress">
+		<view class="addAddress" @click="handleIncrAddress">
 			<text>新增收货地址</text>
 		</view>
 		
@@ -31,6 +31,15 @@
 </template>
 
 <script>
+	export default {
+		methods: {
+			handleIncrAddress() {
+				uni.navigateTo({
+					url: '/pages/incraddress/incr_address'
+				})
+			}
+		}
+	}
 </script>
 
 <style scoped>

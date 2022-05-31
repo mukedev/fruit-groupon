@@ -24,19 +24,15 @@
 		</view>
 		<!-- 头部导航栏 -->
 		<view class="search-nav">
-			<view class="nav-icon">
-				<image src="../../../static/vipqr.png" mode="widthFix"></image>
-				<text>未命名</text>
-			</view>
-			<view class="nav-icon">
+			<view class="nav-icon" @click="openRecharge">
 				<image src="../../../static/wallet1.png" mode="widthFix"></image>
 				<text>充值</text>
 			</view>
-			<view class="nav-icon">
+			<view class="nav-icon" @click="openCoupon">
 				<image src="../../../static/coupon.png" mode="widthFix"></image>
 				<text>优惠券</text>
 			</view>
-			<view class="nav-icon">
+			<view class="nav-icon" @click="openDistribution">
 				<image src="../../../static/giftcard.png" mode="widthFix"></image>
 				<text>待配送</text>
 			</view>
@@ -45,6 +41,33 @@
 </template>
 
 <script>
+	
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			openCoupon() {
+				console.log(111);
+				uni.navigateTo({
+					url:'/pages/coupon/coupon'
+				})
+			},
+			openRecharge() {
+				uni.navigateTo({
+					url: '/pages/wallet/wallet'
+				})
+			},
+			openDistribution() {
+				uni.navigateTo({
+					url: '/pages/distribution/distribution'
+				})
+			},
+			
+		}
+	}
 </script>
 
 <style scoped>

@@ -8,7 +8,7 @@
 				<text>合计：¥ 53.80</text>
 				<text>预计到手价：¥48.00</text>
 			</view>
-			<text>去结算(11)</text>
+			<text @click="handleOrderConfirm">去结算(11)</text>
 		</view>
 	</view>
 </template>
@@ -18,6 +18,13 @@
 		data() {
 			return {
 				isChecked: true
+			}
+		},
+		methods: {
+			handleOrderConfirm() {
+				uni.navigateTo({
+					url: '/pages/orderconfirm/order_confirm'
+				})
 			}
 		}
 	}

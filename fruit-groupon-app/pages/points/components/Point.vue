@@ -6,7 +6,7 @@
 				<text>30</text>
 				<text>积分</text>
 			</view>
-			<text>积分兑换</text>
+			<text @click="openPointChange">积分兑换</text>
 		</view>
 		<view class="point-rule">
 			<text>您有0积分将于2022-06-30失效</text>
@@ -16,6 +16,15 @@
 </template>
 
 <script>
+	export default {
+		methods: {
+			openPointChange() {
+				uni.navigateTo({
+					url: '/pages/pointchange/point_change'
+				})
+			}
+		}
+	}
 </script>
 
 <style scoped>

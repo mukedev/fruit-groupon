@@ -5,7 +5,7 @@
 		
 		<view class="address">
 			<text>收货地址</text>
-			<view class="address-select">
+			<view class="address-select" @click="openAddress">
 				<text>请选择收货地址</text>
 				<text>></text>
 			</view>
@@ -19,6 +19,15 @@
 </template>
 
 <script>
+	export default {
+		methods: {
+			openAddress() {
+				uni.navigateTo({
+					url: '/pages/address/address'
+				})
+			}
+		}
+	}
 </script>
 
 <style scoped>

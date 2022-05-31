@@ -37,7 +37,17 @@
 					}
 				]
 			}
+		},
+		methods: {
+			menubar(type) {
+				if (type === 1) {
+					uni.navigateTo({
+						url: '/pages/points/points'
+					})
+				}
+			}
 		}
+		
 	}
 </script>
 

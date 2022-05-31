@@ -2,7 +2,7 @@
 	<view class="container">
 		<view class="order">
 			<text>我的订单</text>
-			<text>全部订单></text>
+			<text @click="openOrderPage">全部订单></text>
 		</view>
 		<view class="order-items">
 			<view class="order-item">
@@ -26,6 +26,15 @@
 </template>
 
 <script>
+	export default {
+		methods: {
+			openOrderPage() {
+				uni.navigateTo({
+					url: '/pages/order/order'
+				})
+			}
+		}
+	}
 </script>
 
 <style>

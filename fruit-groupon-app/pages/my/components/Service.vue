@@ -3,27 +3,23 @@
 		<text>我的服务</text>
 			<!-- <view class="">我的服务：收货地址 ｜ 积分兑换 ｜ 意见箱 ｜ 联系客服 ｜ 系统设置</view> -->
 		<view class="service-items">
-			<view class="service-item">
+			<view class="service-item" @click="openAddress">
 				<image src="../../../static/coupon.png" mode="widthFix"></image>
 				<text>收货地址</text>
 			</view>
-			<view class="service-item">
+			<view class="service-item" @click="openPoints">
 				<image src="../../../static/shop.png" mode="widthFix"></image>
 				<text>积分兑换</text>
 			</view>
-			<view class="service-item">
+			<view class="service-item" @click="openSuggest">
 				<image src="../../../static/coupon.png" mode="widthFix"></image>
 				<text>意见箱</text>
 			</view>
-			<view class="service-item">
+			<view class="service-item" @click="openServices">
 				<image src="../../../static/shop.png" mode="widthFix"></image>
 				<text>联系客服</text>
 			</view>
-			<view class="service-item">
-				<image src="../../../static/coupon.png" mode="widthFix"></image>
-				<text>系统设置</text>
-			</view>
-			<view class="service-item">
+			<view class="service-item" @click="openSystem">
 				<image src="../../../static/coupon.png" mode="widthFix"></image>
 				<text>系统设置</text>
 			</view>
@@ -32,6 +28,38 @@
 </template>
 
 <script>
+	export default {
+		data() {
+			return {}
+		},
+		methods: {
+			openAddress() {
+				uni.navigateTo({
+					url: '/pages/address/address'
+				})
+			},
+			openPoints() {
+				uni.navigateTo({
+					url: '/pages/points/points'
+				})
+			},
+			openSuggest() {
+				uni.navigateTo({
+					url: '/pages/suggest/suggest'
+				})
+			},
+			openServices() {
+				uni.navigateTo({
+					url: '/pages/services/services'
+				})
+			},
+			openSystem() {
+				uni.navigateTo({
+					url: '/pages/system/system_setup'
+				})
+			},
+		}
+	}
 </script>
 
 <style scoped>

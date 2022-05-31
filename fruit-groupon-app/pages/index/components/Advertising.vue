@@ -21,23 +21,23 @@
 			
 		</view>
 		<view class="fast-nav" >
-			<view class="nav-icon">
+			<view class="nav-icon" @click="openServer(1)">
 				<image src="../../../static/01.jpeg" mode="widthFix"></image>
 				<text>配送到家</text>
 			</view>
-			<view class="nav-icon">
+			<view class="nav-icon" @click="openServer(2)">
 				<image src="../../../static/01.jpeg" mode="widthFix"></image>
 				<text>充值送券</text>
 			</view>
-			<view class="nav-icon">
+			<view class="nav-icon" @click="openServer(3)">
 				<image src="../../../static/01.jpeg" mode="widthFix"></image>
 				<text>超值拼团</text>
 			</view>
-			<view class="nav-icon">
+			<view class="nav-icon" @click="openServer(4)">
 				<image src="../../../static/01.jpeg" mode="widthFix"></image>
 				<text>限时秒杀</text>
 			</view>
-			<view class="nav-icon">
+			<view class="nav-icon" @click="openServer(5)">
 				<image src="../../../static/01.jpeg" mode="widthFix"></image>
 				<text>积分兑换</text>
 			</view>
@@ -64,7 +64,33 @@
 			}
 	    },
 	    methods: {
-	        
+	        openServer(inx) {
+				let url = '';
+				if (inx === 1) {
+					url = '/pages/homedelivery/home_delivery';
+				} else if (inx === 2) {
+					url = '/pages/recharge/recharge';
+				} else if (inx === 3) {
+					url = '/pages/groupon/groupon';
+				} else if (inx === 4) {
+					url = '/pages/rushbuy/rushbuy';
+				} else if (inx === 5) {
+					url = '/pages/pointchange/point_change';
+				}
+				console.log(inx, url)
+				
+				if (inx === 3 || inx === 4) {
+					
+					uni.switchTab({
+						url: url
+					})
+				} else {
+					uni.navigateTo({
+						url: url
+					})
+				}
+				
+			}
 	    }
 	}
 </script>

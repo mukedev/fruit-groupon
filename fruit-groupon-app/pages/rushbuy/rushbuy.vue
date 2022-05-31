@@ -1,8 +1,4 @@
-<!-- <template>
-	<view class="">
-		<FlashSale></FlashSale>
-	</view>
-</template> -->
+<!-- 秒杀 -->
 <template>
 	<view>
 		<FlashSale></FlashSale>
