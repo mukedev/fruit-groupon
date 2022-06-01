@@ -1,120 +1,122 @@
+<!-- 购物车商品列表 -->
 <template>
-	<view class="container">
-		<!-- 购物车商品 -->
-		<view class="product-content">
-			<checkbox :checked="isChecked" @click="isChecked=!isChecked" />
-			<image src="../../../static/01.jpeg" mode="widthFix"></image>
-			<view class="product-info">
-				<text>麒麟瓜 约3斤/份（非整个）</text>
-				<view class="product-buy">
-					<text>¥ 12.8</text>
-					<view class="product-num">
-						<text>-</text>
-						<text>1</text>
-						<text>+</text>
+	
+	<scrool-view scroll-y="true">
+		<view class="wrap">
+			<!-- 购物车商品 -->
+			<view class="product-content">
+				<checkbox :checked="isChecked" @click="isChecked=!isChecked" />
+				<image src="../../../static/01.jpeg" mode="widthFix"></image>
+				<view class="product-info">
+					<text>麒麟瓜 约3斤/份（非整个）</text>
+					<view class="product-buy">
+						<text>¥ 12.8</text>
+						<view class="product-num">
+							<text>-</text>
+							<text>1</text>
+							<text>+</text>
+						</view>
+					</view>
+				</view>
+			</view>
+			
+			<view class="product-content">
+				<checkbox :checked="isChecked" @click="isChecked=!isChecked" />
+				<image src="../../../static/01.jpeg" mode="widthFix"></image>
+				<view class="product-info">
+					<text>麒麟瓜 约3斤/份（非整个）</text>
+					<view class="product-buy">
+						<text>¥ 12.8</text>
+						<view class="product-num">
+							<text>-</text>
+							<text>1</text>
+							<text>+</text>
+						</view>
+					</view>
+				</view>
+			</view>
+			
+			<view class="product-content">
+				<checkbox :checked="isChecked" @click="isChecked=!isChecked" />
+				<image src="../../../static/01.jpeg" mode="widthFix"></image>
+				<view class="product-info">
+					<text>麒麟瓜 约3斤/份（非整个）</text>
+					<view class="product-buy">
+						<text>¥ 12.8</text>
+						<view class="product-num">
+							<text>-</text>
+							<text>1</text>
+							<text>+</text>
+						</view>
+					</view>
+				</view>
+			</view>
+			
+			<view class="product-content">
+				<checkbox :checked="isChecked" @click="isChecked=!isChecked" />
+				<image src="../../../static/01.jpeg" mode="widthFix"></image>
+				<view class="product-info">
+					<text>麒麟瓜 约3斤/份（非整个）</text>
+					<view class="product-buy">
+						<text>¥ 12.8</text>
+						<view class="product-num">
+							<text>-</text>
+							<text>1</text>
+							<text>+</text>
+						</view>
+					</view>
+				</view>
+			</view>
+			
+			<view class="product-content">
+				<checkbox :checked="isChecked" @click="isChecked=!isChecked" />
+				<image src="../../../static/01.jpeg" mode="widthFix"></image>
+				<view class="product-info">
+					<text>麒麟瓜 约3斤/份（非整个）</text>
+					<view class="product-buy">
+						<text>¥ 12.8</text>
+						<view class="product-num">
+							<text>-</text>
+							<text>1</text>
+							<text>+</text>
+						</view>
+					</view>
+				</view>
+			</view>
+			
+			<view class="product-content">
+				<checkbox :checked="isChecked" @click="isChecked=!isChecked" />
+				<image src="../../../static/01.jpeg" mode="widthFix"></image>
+				<view class="product-info">
+					<text>麒麟瓜 约3斤/份（非整个）</text>
+					<view class="product-buy">
+						<text>¥ 12.8</text>
+						<view class="product-num">
+							<text>-</text>
+							<text>1</text>
+							<text>+</text>
+						</view>
+					</view>
+				</view>
+			</view>
+			
+			<view class="product-content">
+				<checkbox :checked="isChecked" @click="isChecked=!isChecked" />
+				<image src="../../../static/01.jpeg" mode="widthFix"></image>
+				<view class="product-info">
+					<text>麒麟瓜 约3斤/份（非整个）</text>
+					<view class="product-buy">
+						<text>¥ 12.8</text>
+						<view class="product-num">
+							<text>-</text>
+							<text>1</text>
+							<text>+</text>
+						</view>
 					</view>
 				</view>
 			</view>
 		</view>
-		
-		<view class="product-content">
-			<checkbox :checked="isChecked" @click="isChecked=!isChecked" />
-			<image src="../../../static/01.jpeg" mode="widthFix"></image>
-			<view class="product-info">
-				<text>麒麟瓜 约3斤/份（非整个）</text>
-				<view class="product-buy">
-					<text>¥ 12.8</text>
-					<view class="product-num">
-						<text>-</text>
-						<text>1</text>
-						<text>+</text>
-					</view>
-				</view>
-			</view>
-		</view>
-		
-		<view class="product-content">
-			<checkbox :checked="isChecked" @click="isChecked=!isChecked" />
-			<image src="../../../static/01.jpeg" mode="widthFix"></image>
-			<view class="product-info">
-				<text>麒麟瓜 约3斤/份（非整个）</text>
-				<view class="product-buy">
-					<text>¥ 12.8</text>
-					<view class="product-num">
-						<text>-</text>
-						<text>1</text>
-						<text>+</text>
-					</view>
-				</view>
-			</view>
-		</view>
-		
-		<view class="product-content">
-			<checkbox :checked="isChecked" @click="isChecked=!isChecked" />
-			<image src="../../../static/01.jpeg" mode="widthFix"></image>
-			<view class="product-info">
-				<text>麒麟瓜 约3斤/份（非整个）</text>
-				<view class="product-buy">
-					<text>¥ 12.8</text>
-					<view class="product-num">
-						<text>-</text>
-						<text>1</text>
-						<text>+</text>
-					</view>
-				</view>
-			</view>
-		</view>
-		
-		<view class="product-content">
-			<checkbox :checked="isChecked" @click="isChecked=!isChecked" />
-			<image src="../../../static/01.jpeg" mode="widthFix"></image>
-			<view class="product-info">
-				<text>麒麟瓜 约3斤/份（非整个）</text>
-				<view class="product-buy">
-					<text>¥ 12.8</text>
-					<view class="product-num">
-						<text>-</text>
-						<text>1</text>
-						<text>+</text>
-					</view>
-				</view>
-			</view>
-		</view>
-		
-		<view class="product-content">
-			<checkbox :checked="isChecked" @click="isChecked=!isChecked" />
-			<image src="../../../static/01.jpeg" mode="widthFix"></image>
-			<view class="product-info">
-				<text>麒麟瓜 约3斤/份（非整个）</text>
-				<view class="product-buy">
-					<text>¥ 12.8</text>
-					<view class="product-num">
-						<text>-</text>
-						<text>1</text>
-						<text>+</text>
-					</view>
-				</view>
-			</view>
-		</view>
-		
-		<view class="product-content">
-			<checkbox :checked="isChecked" @click="isChecked=!isChecked" />
-			<image src="../../../static/01.jpeg" mode="widthFix"></image>
-			<view class="product-info">
-				<text>麒麟瓜 约3斤/份（非整个）</text>
-				<view class="product-buy">
-					<text>¥ 12.8</text>
-					<view class="product-num">
-						<text>-</text>
-						<text>1</text>
-						<text>+</text>
-					</view>
-				</view>
-			</view>
-		</view>
-		
-		
-	</view>
+	</scrool-view>
 	
 </template>
 
@@ -129,13 +131,17 @@
 </script>
 
 <style scoped>
+	.wrap {
+		background-color: #fff;
+		margin: 20upx 0 400upx 0;
+	}
 	.product-content {
 		display: flex;
 		align-items: center;
 		justify-content: left;
-		/* border: solid 1upx black; */
 		padding-left: 16upx;
 		margin: 40upx 0upx;
+		background: #fff;
 		
 	}
 	.product-info {
@@ -144,7 +150,7 @@
 		width: 60%;
 	}
 	.product-info > text:nth-child(1) {
-		font-size: 35upx;
+		font-size: 28upx;
 	}
 	.product-content image{
 		width: 25%;

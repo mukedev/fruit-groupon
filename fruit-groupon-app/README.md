@@ -11,4 +11,16 @@
 	* 小背景： #fff
 
 字体： 
-	font-size: 32rpx
+	超大号：
+	大号：font-size: 38upx;
+	常规：font-size: 32rpx
+	小号：font-size: 28upx;
+	
+底端边框圆角规范：
+	border-bottom-left-radius: 15upx;
+	border-bottom-right-radius: 15upx;
+	font-size: 32upx;
+	
+边框圆角规范：
+	10upx
+	20upx

@@ -17,6 +17,6 @@
 
 <style>
 	page{
-	        background:#f0f0f0;  
+	        background:#f4f4f4;  
 	    }
 </style>

@@ -14,4 +14,7 @@
 </script>
 
 <style>
+	page {
+		background: #f4f4f4
+	}
 </style>

@@ -21,18 +21,18 @@
 					<view class="tu" v-for="(item,index) in imgUrl" :key="index" :class="actives == index?'tu1':'tu2'">
 						<view class="actiid">
 							<text>{{item.title}}</text>
-							<view class="">
+							<view class="sort_select">
 								<text style="margin-right: 40rpx;">综合</text>
 								<text>价格</text>
 							</view>
 						</view>
-						<scroll-view scroll-y="true" >
+						<scroll-view scroll-y="true" class="product-wrap" >
 							<view class="product">
 								<image src="../../../static/01.jpeg" mode="widthFix"></image>
 								<view class="product-info">
 									<text>白糖罂荔枝 约500g/份</text>
 									<view class="add_cart">
-										<text>¥18.8</text>
+										<text class="price">¥18.8</text>
 										<uni-icons class="cart_icon" color="#fff" type="cart" size="13"></uni-icons>
 									</view>
 								</view>
@@ -42,7 +42,7 @@
 								<view class="product-info">
 									<text>白糖罂荔枝 约500g/份</text>
 									<view class="add_cart">
-										<text>¥18.8</text>
+										<text class="price">¥18.8</text>
 										<uni-icons class="cart_icon" color="#fff" type="cart" size="13"></uni-icons>
 									</view>
 								</view>
@@ -52,7 +52,7 @@
 								<view class="product-info">
 									<text>白糖罂荔枝 约500g/份</text>
 									<view class="add_cart">
-										<text>¥18.8</text>
+										<text class="price">¥18.8</text>
 										<uni-icons class="cart_icon" color="#fff" type="cart" size="13"></uni-icons>
 									</view>
 								</view>
@@ -62,7 +62,7 @@
 								<view class="product-info">
 									<text>白糖罂荔枝 约500g/份</text>
 									<view class="add_cart">
-										<text>¥18.8</text>
+										<text class="price">¥18.8</text>
 										<uni-icons class="cart_icon" color="#fff" type="cart" size="13"></uni-icons>
 									</view>
 								</view>
@@ -72,7 +72,7 @@
 								<view class="product-info">
 									<text>白糖罂荔枝 约500g/份</text>
 									<view class="add_cart">
-										<text>¥18.8</text>
+										<text class="price">¥18.8</text>
 										<uni-icons class="cart_icon" color="#fff" type="cart" size="13"></uni-icons>
 									</view>
 								</view>
@@ -82,7 +82,7 @@
 								<view class="product-info">
 									<text>白糖罂荔枝 约500g/份</text>
 									<view class="add_cart">
-										<text>¥18.8</text>
+										<text class="price">¥18.8</text>
 										<uni-icons class="cart_icon" color="#fff" type="cart" size="13"></uni-icons>
 									</view>
 								</view>
@@ -92,7 +92,7 @@
 								<view class="product-info">
 									<text>白糖罂荔枝 约500g/份</text>
 									<view class="add_cart">
-										<text>¥18.8</text>
+										<text class="price">¥18.8</text>
 										<uni-icons class="cart_icon" color="#fff" type="cart" size="13"></uni-icons>
 									</view>
 								</view>
@@ -102,7 +102,7 @@
 								<view class="product-info">
 									<text>白糖罂荔枝 约500g/份</text>
 									<view class="add_cart">
-										<text>¥18.8</text>
+										<text class="price">¥18.8</text>
 										<uni-icons class="cart_icon" color="#fff" type="cart" size="13"></uni-icons>
 									</view>
 								</view>
@@ -112,7 +112,7 @@
 								<view class="product-info">
 									<text>白糖罂荔枝 约500g/份</text>
 									<view class="add_cart">
-										<text>¥18.8</text>
+										<text class="price">¥18.8</text>
 										<uni-icons class="cart_icon" color="#fff" type="cart" size="13"></uni-icons>
 									</view>
 								</view>
@@ -143,8 +143,9 @@
 					"鲜果现切", "热带果/其它", "苹梨蕉芒",
 					"零食饮品"
 				],
-				imgUrl: [{
-						title: "摄影设计",
+				imgUrl: [
+					{
+						title: "每日特价",
 						imgs: [
  
 							"https://images.pexels.com/photos/9944370/pexels-photo-9944370.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 ",
@@ -152,6 +153,46 @@
  
 						]
  
+					},
+					{
+						title: "荔枝&樱桃",
+						imgs: [
+				 
+							"https://images.pexels.com/photos/9944370/pexels-photo-9944370.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 ",
+							"https://images.pexels.com/photos/9558174/pexels-photo-9558174.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+				 
+						]
+				 
+					},
+					{
+						title: "热销爆款",
+						imgs: [
+									 
+							"https://images.pexels.com/photos/9944370/pexels-photo-9944370.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 ",
+							"https://images.pexels.com/photos/9558174/pexels-photo-9558174.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+									 
+						]
+									 
+					},
+					{
+						title: "西瓜蜜瓜",
+						imgs: [
+									 
+							"https://images.pexels.com/photos/9944370/pexels-photo-9944370.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 ",
+							"https://images.pexels.com/photos/9558174/pexels-photo-9558174.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+									 
+						]
+									 
+					},
+					{
+						title: "柑橘橙柚",
+						imgs: [
+									 
+							"https://images.pexels.com/photos/9944370/pexels-photo-9944370.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500 ",
+							"https://images.pexels.com/photos/9558174/pexels-photo-9558174.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+									 
+						]
+									 
 					}
 				],
 				actives: 0,
@@ -256,8 +297,8 @@
 		.box_left {
 			width: 26%;
 			height: 100%;
-			border-right: 1rpx solid #f3f3f3;
-			background: #F4F4F4;
+			// border-right: 1rpx solid #f3f3f3;
+			// background: #F4F4F4;
 			position: fixed;
 			overflow: auto;
  
@@ -274,7 +315,7 @@
 			.active {
 				width: 100%;
 				height: 100rpx;
-				background: rgb(196, 30, 0);
+				background: #18bc37;
 				color: #fff;
 			}
 		}
@@ -283,7 +324,7 @@
 		.box_right {
 			width: 74%;
 			float: right;
-			
+			position: relative;
  
 			.tu1 {
 				display: block;
@@ -298,20 +339,29 @@
 					display: flex;
 					align-items: center;
 					justify-content: space-between;
-					margin: 30rpx 30rpx 30rpx 20rpx;
 					font-size: 28upx;
 					
 					position: fixed;
 					height: 100upx;
 					line-height: 100upx;
-					width: 70%;
-					top: 108upx;
-					right: -10;
+					width: 74%;
+					top: 136upx;
 					background: #fff;
 					z-index: 100;
-					
+					border-bottom:  1upx solid #f0f0f0;
+					// 更细的边框线
+					// -webkit-transform: scaleY(.5);
+					// transform: scaleY(.5);
+					overflow: auto;
 
 					
+				}
+				.actiid>text {
+					color: #8f8f8f;
+					margin-left: 20upx;
+				}
+				.sort_select {
+					margin-right: 20upx;
 				}
  
 				.top_img {
@@ -326,14 +376,21 @@
  
 			}
 			
+			.product-wrap {
+				margin-top: 110upx;
+			}
+			
 			.product {
 				width: 100%;
+				margin: 20upx 0;
 				display: flex;
 				align-items: center;
 				height: 200rpx;
 				position: relative; // 相对定位
 				background: #fefefe;
-				margin-top: 110upx;
+				// border: solid 1upx black;
+	
+				// overflow: auto;
 			}
 			.product image{
 				width: 30%;
@@ -341,32 +398,35 @@
 			}
 			.product-info {
 				width: 100%;
-				// margin-right: 100rpx;
 			}
 			.product-info>text:first-child{
 				position: absolute;
 				top: 0;
+				margin-top: 15upx;
+				// border: solid 1upx black;
 				
 			}
 			.add_cart {
 				width: 70%;
 				position: absolute;
 				bottom: 0;
+				margin-bottom: 15upx;
 
 				display: flex;
 				align-items: center;
 				justify-content: space-between;
 			}
-			.add_cart>text:first-child {
+			.price {
 				color: #ff0000;
-				font-size: 40rpx;
-			
+				font-size: 38rpx;
+				font-weight: bold;
 			}
-			.add_cart:first-letter {
-				font-size: 25rpx;
+			.price:first-letter {
+				font-size: 28rpx;
+				font-weight: normal;
 			}
 			.cart_icon {
-				margin-right: 35upx;
+				margin-right: 25upx;
 				background: green;
 				width: 50upx;
 				height: 50upx;

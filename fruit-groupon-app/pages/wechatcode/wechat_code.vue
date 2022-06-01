@@ -1,14 +1,15 @@
+<!-- 微信二维码页面 -->
 <template>
-	<ProductClassify></ProductClassify>
+	<CodeImg></CodeImg>
 </template>
 
 <script>
 	// 引入组件
-	import ProductClassify from './components/ProdcutClassify.vue'
+	import CodeImg from './components/CodeImg.vue'
 	
 	export default {
 		components: {
-			ProductClassify
+			CodeImg
 		}
 	}
 </script>

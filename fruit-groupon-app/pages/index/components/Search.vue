@@ -35,7 +35,7 @@
 				<image src="../../../static/coupon.png" mode="widthFix"></image>
 				<text>优惠券</text>
 			</view>
-			<view class="nav-icon" @click="openDistribution">
+			<view class="nav-icon" @click="openOrder">
 				<image src="../../../static/giftcard.png" mode="widthFix"></image>
 				<text>订单</text>
 			</view>
@@ -70,6 +70,11 @@
 			openDistribution() {
 				uni.navigateTo({
 					url: '/pages/distribution/distribution'
+				})
+			},
+			openOrder() {
+				uni.navigateTo({
+					url: '/pages/order/order'
 				})
 			},
 			

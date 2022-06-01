@@ -38,6 +38,6 @@
 <style>
 	/* Vue的bug 小程序改背景颜色需要在这里声明这个样式 */
 	page{  
-	        background:#f0f0f0;  
+	        background:#f4f4f4;  
 	    }
 </style>

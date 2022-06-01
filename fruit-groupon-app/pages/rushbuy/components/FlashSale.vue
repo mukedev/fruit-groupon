@@ -17,8 +17,8 @@
 							border-radius="10" >仅剩{{100-item.soldOut}}%</progress>
 						</view>
 					</view>
-					<view class="price">
-						<text>¥ {{item.price}}</text>
+					<view class="price-parent">
+						<text class="price">¥{{item.price}}</text>
 						<text>抢</text>
 					</view>
 				</view>
@@ -158,11 +158,13 @@
 		height: 100%;
 	}
 	.commodity-item{
-		margin: 20upx 0;
+		margin: 20upx;
+		padding: 20upx;
 		height: 260upx;
 		display: flex;
 		font-size: 30upx;
 		background-color: #fff;
+		border-radius: 10upx;
 	}
 	.comm-info {
 		height: 100%;
@@ -181,7 +183,7 @@
 		width: 80%;
 		font-size: 20upx;
 	}
-	.price {
+	.price-parent {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -190,10 +192,15 @@
 		font-size: 30upx;
 		
 	}
-	.price text:first-child {
+	.price {
 		color: #ff0000;
+		font-size: 38upx;
+		font-weight: bold;
 	}
-	.price text:nth-child(2) {
+	.price:first-letter {
+		font-size: 28upx;
+	}
+	.price-parent text:nth-child(2) {
 		color: #fff;
 		border-radius: 100upx;
 		width: 100upx;

@@ -21,6 +21,6 @@
 
 <style>
 	page{
-		background:#fff;  
+		background:#f4f4f4;  
 	}
 </style>

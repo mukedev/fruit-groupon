@@ -27,7 +27,7 @@
 			</view>
 			<view class="nav-icon" @click="openServer(2)">
 				<image src="../../../static/01.jpeg" mode="widthFix"></image>
-				<text>充值送券</text>
+				<text>充值优惠</text>
 			</view>
 			<view class="nav-icon" @click="openServer(3)">
 				<image src="../../../static/01.jpeg" mode="widthFix"></image>
@@ -69,9 +69,9 @@
 				if (inx === 1) {
 					url = '/pages/homedelivery/home_delivery';
 				} else if (inx === 2) {
-					url = '/pages/recharge/recharge';
+					url = '/pages/wallet/wallet';
 				} else if (inx === 3) {
-					url = '/pages/groupon/groupon';
+					url = '/pages/product/product';
 				} else if (inx === 4) {
 					url = '/pages/rushbuy/rushbuy';
 				} else if (inx === 5) {

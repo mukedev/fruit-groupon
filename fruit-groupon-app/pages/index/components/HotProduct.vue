@@ -18,7 +18,7 @@
 			</view>
 			<view class="prod-price">
 				<text class="price">¥{{item.price}}</text>
-				<uni-icons class="prod-buy" color="#fff" type="cart" size="13"></uni-icons>
+				<uni-icons class="cart_icon" color="#fff" type="cart" size="13"></uni-icons>
 			</view>
 		</view>
 	</view>
@@ -143,6 +143,12 @@
 	}
 	.price {
 		color: #ff0000;
+		font-size: 38upx;
+		font-weight: bold;
+	}
+	.price:first-letter {
+		font-size: 28upx;
+		font-weight: normal;
 	}
 	.prod-stock text{
 		font-size: 25upx;
@@ -152,12 +158,15 @@
 	.prod-stock {
 		margin-bottom: 30upx;
 	}
-	.prod-buy {
-		width: 70upx;
-		color: white;
-		font-size: 23upx;
-		border-radius: 100upx;
-		background-color: #62d52b;
+	.cart_icon {
+		margin-right: 20upx;
+		background: green;
+		width: 50upx;
+		height: 50upx;
+		line-height: 50upx;
+		text-align: center;
+		border-radius: 25upx;
+		
 	}
 	
 </style>

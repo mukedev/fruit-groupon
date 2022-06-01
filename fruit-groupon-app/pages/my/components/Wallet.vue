@@ -1,7 +1,7 @@
 <template>
 	<view class="container">
 		<view class="wallet" @click="openWallet">
-			<text>0.00</text>
+			<text>¥0.00</text>
 			<text>钱包金额</text>
 		</view>
 		<view class="wallet" @click="openPoints">
@@ -45,11 +45,14 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding: 0 35upx;
+		padding: 20upx 35upx;
+		margin: 30upx 20upx;
+		background: #fff;
+		border-radius: 25upx;
 	}
 	.wallet {
 		margin-top: 20upx;
-		font-size: 36upx;
+		font-size: 32upx;
 	}
 	.wallet text{
 		display: block;

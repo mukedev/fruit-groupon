@@ -8,12 +8,12 @@
 				<text>收货地址</text>
 			</view>
 			<view class="service-item" @click="openPoints">
-				<image src="../../../static/shop.png" mode="widthFix"></image>
+				<image src="../../../static/coupon.png" mode="widthFix"></image>
 				<text>积分兑换</text>
 			</view>
 			<view class="service-item" @click="openSuggest">
 				<image src="../../../static/coupon.png" mode="widthFix"></image>
-				<text>意见箱</text>
+				<text>意见反馈</text>
 			</view>
 			<view class="service-item" @click="openServices">
 				<image src="../../../static/shop.png" mode="widthFix"></image>
@@ -68,7 +68,6 @@
 		border-radius: 25upx;
 		background-color: #fff;
 		padding-top: 30upx;
-		/* border: solid 1upx black; */
 	}
 	.container > text:first-child {
 		font-weight: bold;

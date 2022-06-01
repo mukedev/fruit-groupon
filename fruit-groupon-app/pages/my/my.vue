@@ -2,7 +2,7 @@
 	<view class="container">
 		<UserInfo></UserInfo>
 		<Wallet></Wallet>
-		<Vip></Vip>
+		<!-- <Vip></Vip> -->
 		<Order></Order>
 		<Service></Service>
 	</view>
@@ -30,6 +30,6 @@
 	
 <style>
 	page{
-	        background:#f0f0f0;  
+	        background:#f4f4f4;  
 	    }
 </style>

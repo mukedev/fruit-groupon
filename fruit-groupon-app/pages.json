@@ -1,17 +1,48 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "水果优团"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/shoppingcart/shopping_cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		
+		{
+			"path": "pages/services/services",
+			"style": {
+				"navigationBarTitleText": "联系客服",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/wechatcode/wechat_code",
+			"style": {
+				"navigationBarTitleText": "扫码入群",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
 		
 		{
 			"path": "pages/product/product",
 			"style": {
 				"navigationBarTitleText": "商品",
 				"navigationStyle": "custom"
-			}
-		},
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "水果优团"
 			}
 		},
 		{
@@ -24,30 +55,16 @@
 		},
 		
 		
-		{
-			"path": "pages/order/order",
-			"style": {
-				"navigationBarTitleText": "全部订单",
-				"navigationBarBackgroundColor": "#ffffff",
-				"navigationBarTextStyle": "black"
-			}
-		},
+		
 		{
 			"path": "pages/suggest/suggest",
 			"style": {
-				"navigationBarTitleText": "意见箱",
+				"navigationBarTitleText": "意见反馈",
 				"navigationBarBackgroundColor": "#ffffff",
 				"navigationBarTextStyle": "black"
 			}
 		},
-		{
-			"path": "pages/services/services",
-			"style": {
-				"navigationBarTitleText": "联系客服",
-				"navigationBarBackgroundColor": "#ffffff",
-				"navigationBarTextStyle": "black"
-			}
-		},
+		
 		{
 			"path": "pages/system/system_setup",
 			"style": {
@@ -83,7 +100,7 @@
 		{
 			"path": "pages/address/address",
 			"style": {
-				"navigationBarTitleText": "收货地址",
+				"navigationBarTitleText": "收货地址管理",
 				"navigationBarBackgroundColor": "#ffffff",
 				"navigationBarTextStyle": "black"
 			}
@@ -96,12 +113,7 @@
 				"navigationBarTextStyle": "black"
 			}
 		},
-		{
-			"path": "pages/shoppingcart/shopping_cart",
-			"style": {
-				"navigationBarTitleText": "购物车"
-			}
-		},
+		
 		{
 			"path": "pages/pointchange/point_change",
 			"style": {
@@ -263,10 +275,10 @@
 				"text": "主页"
 			},
 			{
-				"pagePath": "pages/groupon/groupon",
+				"pagePath": "pages/product/product",
 				"iconPath": "static/basket.png",
 				"selectedIconPath": "static/basket.png",
-				"text": "预订"
+				"text": "分类"
 			},
 			{
 				"pagePath": "pages/rushbuy/rushbuy",

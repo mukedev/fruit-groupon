@@ -1,7 +1,7 @@
 <template>
 	<!-- 购物车 -->
 	<view class="container">
-		<CartNav></CartNav>
+		<!-- <CartNav></CartNav> -->
 		<CartProduct></CartProduct>
 		<CartPrice></CartPrice>
 	</view>
@@ -23,4 +23,7 @@
 </script>
 
 <style>
+	page {
+		background: #f4f4f4;
+	}
 </style>

@@ -35,7 +35,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		background: #bdc3ba;
+		background: #fff;
+		font-size: 32upx;
 		
 		/* 将页面固定在下方 */
 		width:100%;
@@ -54,10 +55,10 @@
 	.settlement-amount text {
 		display: block;
 		color: #ff0000;
-		font-size: 30upx;
+		font-size: 28upx;
 	}
 	.settlement-amount > text:nth-child(1) {
-		font-size: 40upx;
+		font-size: 38upx;
 	}
 	.settlement > text:last-child {
 		background: #009300;

@@ -7,6 +7,10 @@
 		<view class="order-items">
 			<view class="order-item">
 				<image src="../../../static/images/order/15.png" mode="widthFix"></image>
+				<text>待付款</text>
+			</view>
+			<view class="order-item">
+				<image src="../../../static/images/order/15.png" mode="widthFix"></image>
 				<text>待配送</text>
 			</view>
 			<view class="order-item">
@@ -19,7 +23,7 @@
 			</view>
 			<view class="order-item">
 				<image src="../../../static/images/order/11.png" mode="widthFix"></image>
-				<text>退款/售后</text>
+				<text>退款</text>
 			</view>
 		</view>
 	</view>
@@ -74,7 +78,7 @@
 	}
 	.order-item {
 		display: block;
-		width: 24.2%;
+		width: 20%;
 		text-align: center;
 		line-height: 30upx;
 		margin-top: 25upx;
