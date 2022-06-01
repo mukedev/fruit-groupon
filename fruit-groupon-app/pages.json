@@ -2,6 +2,13 @@
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		
 		{
+			"path": "pages/product/product",
+			"style": {
+				"navigationBarTitleText": "商品",
+				"navigationStyle": "custom"
+			}
+		},
+		{
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "水果优团"
@@ -20,55 +27,73 @@
 		{
 			"path": "pages/order/order",
 			"style": {
-				"navigationBarTitleText": "全部订单"
+				"navigationBarTitleText": "全部订单",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
 			}
 		},
 		{
 			"path": "pages/suggest/suggest",
 			"style": {
-				"navigationBarTitleText": "意见箱"
+				"navigationBarTitleText": "意见箱",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
 			}
 		},
 		{
 			"path": "pages/services/services",
 			"style": {
-				"navigationBarTitleText": "联系客服"
+				"navigationBarTitleText": "联系客服",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
 			}
 		},
 		{
 			"path": "pages/system/system_setup",
 			"style": {
-				"navigationBarTitleText": "系统设置"
+				"navigationBarTitleText": "系统设置",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
 			}
 		},
 		{
 			"path": "pages/recharge/recharge",
 			"style": {
-				"navigationBarTitleText": "充值"
+				"navigationBarTitleText": "充值",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
 			}
 		},
 		{
 			"path": "pages/distribution/distribution",
 			"style": {
-				"navigationBarTitleText": "待配送"
+				"navigationBarTitleText": "待配送",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
 			}
 		},
 		{
 			"path": "pages/incraddress/incr_address",
 			"style": {
-				"navigationBarTitleText": "新增地址"
+				"navigationBarTitleText": "新增地址",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
 			}
 		},
 		{
 			"path": "pages/address/address",
 			"style": {
-				"navigationBarTitleText": "收货地址"
+				"navigationBarTitleText": "收货地址",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
 			}
 		},
 		{
 			"path": "pages/orderconfirm/order_confirm",
 			"style": {
-				"navigationBarTitleText": "确认订单"
+				"navigationBarTitleText": "确认订单",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
 			}
 		},
 		{
@@ -86,7 +111,9 @@
 		{
 			"path": "pages/points/points",
 			"style": {
-				"navigationBarTitleText": "我的积分"
+				"navigationBarTitleText": "我的积分",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
 			}
 		},
 		{
@@ -98,7 +125,9 @@
 		{
 			"path": "pages/coupon/coupon",
 			"style": {
-				"navigationBarTitleText": "我的优惠券"
+				"navigationBarTitleText": "我的优惠券",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
 			}
 		},
 		
@@ -202,7 +231,7 @@
 		"pageOrientation": "portrait",
 		"navigationBarTitleText": "Hello uniapp", // 标题名字
 		"navigationBarTextStyle": "white",// 文字颜色
-		"navigationBarBackgroundColor": "#5ac028", // 导航栏背景颜色
+		"navigationBarBackgroundColor": "#18bc37", // 导航栏背景颜色
 		"backgroundColor": "#f0f0f0", // 背景颜色
 		// background-color: aqua;
 		"backgroundColorTop": "#F4F5F6",
@@ -247,8 +276,8 @@
 			},
 			{
 				"pagePath": "pages/shoppingcart/shopping_cart",
-				"iconPath": "static/time.png",
-				"selectedIconPath": "static/time.png",
+				"iconPath": "static/cart.png",
+				"selectedIconPath": "static/cart.png",
 				"text": "购物车"
 			}
 			,

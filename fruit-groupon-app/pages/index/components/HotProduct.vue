@@ -18,7 +18,7 @@
 			</view>
 			<view class="prod-price">
 				<text class="price">¥{{item.price}}</text>
-				<text class="prod-buy">购买</text>
+				<uni-icons class="prod-buy" color="#fff" type="cart" size="13"></uni-icons>
 			</view>
 		</view>
 	</view>
@@ -33,7 +33,7 @@
 					{
 						id:'1',
 						objImg: '../../../static/01.jpeg',
-						desc: 'A级-千禧小番茄-约250克（提货期间每人每日限提一份，超重会员价补差价）',
+						desc: 'A级-千禧小番茄-约250克',
 						price: '3.99',
 						delivery: '当日可送',
 						stock: 234	
@@ -41,7 +41,7 @@
 					{
 						id:'2',
 						objImg: '../../../static/02.jpeg',
-						desc: 'A级-千禧小番茄-约250克（提货期间每人每日限提一份，超重会员价补差价）',
+						desc: 'A级-千禧小番茄-约250克',
 						price: '2.98',
 						delivery: '当日可送',
 						stock: 554	
@@ -49,7 +49,7 @@
 					{
 						id:'3',
 						objImg: '../../../static/03.jpeg',
-						desc: 'A级-千禧小番茄-约250克（提货期间每人每日限提一份，超重会员价补差价）',
+						desc: 'A级-千禧小番茄-约250克',
 						price: '10',
 						delivery: '当日可送',
 						stock: 200	
@@ -64,7 +64,7 @@
 					{
 						id:'5',
 						objImg: '../../../static/05.jpeg',
-						desc: 'A级-千禧小番茄-约250克（提货期间每人每日限提一份，超重会员价补差价）',
+						desc: 'A级-千禧小番茄-约250克',
 						price: '3.99',
 						delivery: '次日可送',
 						stock: 321	

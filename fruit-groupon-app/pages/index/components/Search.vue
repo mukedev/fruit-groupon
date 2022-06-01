@@ -9,11 +9,14 @@
 	<!-- 收货地址+搜索+头部导航栏 -->
 	<view class="search-global">
 		<!-- 收货地址 -->
-		<view class="search-view">
-			<image src="../../../static/position.png" mode=""></image>
+		<view class="search-view" @click="openAddress">
+			
+			<!-- <image src="../../../static/position.png" mode="widthFix"></image> -->
+			<uni-icons class="address-icon" type="location" color="#ebeaeb" size="13"></uni-icons>
 			<text class="search-text">花盛小区1栋1单元1504室</text>
-			<text>v</text>
+			<uni-icons  class="address-icon" type="bottom" color="#ebeaeb" size="13"></uni-icons>
 		</view>
+	
 		<!-- 搜索 -->
 		<view class="search-cont">
 			<view class="search">
@@ -34,7 +37,7 @@
 			</view>
 			<view class="nav-icon" @click="openDistribution">
 				<image src="../../../static/giftcard.png" mode="widthFix"></image>
-				<text>待配送</text>
+				<text>订单</text>
 			</view>
 		</view>
 	</view>
@@ -49,8 +52,12 @@
 			}
 		},
 		methods: {
+			openAddress() {
+				uni.navigateTo({
+					url:'/pages/address/address'
+				})
+			},
 			openCoupon() {
-				console.log(111);
 				uni.navigateTo({
 					url:'/pages/coupon/coupon'
 				})
@@ -73,25 +80,44 @@
 <style scoped>
 	/* search全局样式 */
 	.search-global {
-		background-color: #5ac028;
+		background-color: #18bc37;
 		color: #f6f6f7 ;
 		font-size: 25upx;
 	}
 	
 	/* 收货地址 */
-	.search-view image {
+	.search-view > image {
 		width: 35upx;
 		height: 35upx;
 		margin-left: 3%;
+		
 	}
 	.search-view {
 		/* 并排排列 */
-		display: flex; 
+		display: flex;
 		align-items: center;
-		height: 80upx;
+		background: #4bd441; 
+		margin-bottom: 20upx;
+		margin-left: 20upx;
+	
+		height: 46upx;
+		line-height: 46upx;
+		border-radius: 23upx;
+
+		width: max-content;
+		max-width: 60%;
+		
+		/* overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 1;
+		-webkit-box-orient: vertical;
+		word-break: normal; */
+	
 	}
-	.search-text {
-		padding: 0 10upx;
+	.address-icon {
+		margin-right: 5upx;
+		margin-left: 10upx;
 	}
 	
 	/* 搜索 */
@@ -99,6 +125,7 @@
 		margin: auto 0 auto 20upx;
 		width: 40upx;
 		height: 40upx;
+		
 	}
 	.search {
 		height: 60upx;
